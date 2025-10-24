@@ -5,4 +5,4 @@
 2. Have CUDA drivers and CUDA docker container toolkit installed (e.g. running `nvidia-smi` work)
 
 ## Steps
-Run Step_1 through Step_3 notebook with the example data. 
+Run **Step_1** through **Step_3** notebook with the example data provided. 
