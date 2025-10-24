@@ -1,0 +1,16 @@
+﻿question,gt_answer,question_type,answer_type
+"The table contains merged columns.  The top column is the level 1. The column underneath a level 1 column is level 2 column. The column underneath a level 2 column is level 3 column. The table has a total of 3 levels of columns. Use the colspan in the HTML code to infer the level of columns. How many level 2 columns are under the level 1 column ""Treatment Phase ""?",3,check merged column structure,numeric
+"The table contains merged columns.  The top column is the level 1. The column underneath a level 1 column is level 2 column. The column underneath a level 2 column is level 3 column. The table has a total of 3 levels of columns.  Use the colspan in the HTML code to infer the level of columns. How many level 2 columns are under the level 1 column ""Post-Treatment Phase ""?",2,check merged column structure,numeric
+"The table contains merged columns.  The top column is the level 1. The column underneath a level 1 column is level 2 column. The column underneath a level 2 column is level 3 column. The table has a total of 3 levels of columns.   Use the colspan in the HTML code to infer the level of columns. How many level 2 columns are under the level 1 column ""Pre-Treatment Phase ""?",2,check merged column structure,numeric
+"The table contains merged columns.  The top column is the level 1. The column underneath a level 1 column is level 2 column. The column underneath a level 2 column is level 3 column. The table has a total of 3 levels of columns.  Use the colspan in the HTML code to infer the level of columns.  How many level 3 columns are under the level 2 column ""Cycle 2, 4, 6 etc""?",2,check merged column structure,numeric
+"The table contains merged columns.  The top column is the level 1. The column underneath a level 1 column is level 2 column. The column underneath a level 2 column is level 3 column. The table has a total of 3 levels of columns.  Use the colspan in the HTML code to infer the level of columns.  How many level 3 columns are under the level 2 column ""Cycle 1""?",4,check merged columns,numeric
+"How many activites are conducted on D8, Cycle 1? ",5,table lookup,numeric
+"Is physical exam scheduled in Pre-Treatment Phase, D-14 to D-1 visit window?",Yes,table lookup,binary
+Is any ADA sample collection activity scheduled on D16 of Cycle 4?,No,table lookup,binary
+Is urinalysis activity scheudled on D13 of Cycle 1? ,Yes,table lookup,binary
+"1 month after the last dose of treatment, is there an ECOG PS scheduled?",Yes,table lookup,binary
+"For the DLT evaluation, is it required during the screening stage?",No,table lookup,binary
+Is informed consent collected during treatment phase?,No,table lookup,binary
+"On what days of treament cycle 1 do we conduct Sym004 infusion? Choose one of the following optoins:  A. D1, D15 (±2) \n B. D8  (±2) \n C. D1, D22  (±2) \n D. None of the above",A,table lookup,mcq
+"During the treatment phase, when is Biomarker Blood and Urine Sample analyzed? A. At the end of Cycle 4. \n B. At the end of Cycle 2. \n C. At Cycle 15. \n D. None of the above",B,table lookup with footnotes,mcq
+"When is ECG conducted? A. During screening, and at the end of the trial treatment visit. \n B. During treatment phase. \n C. At the end of the trial treatment visit only. \n D. None of above",A,table lookup with footnotes,mcq
