@@ -1,0 +1,502 @@
+{
+    "source_document": "output_results/resized_images/pasa_page_7_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-17T21:37:23.973407+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.0875,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.1797
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "<tbc>and (2) a rationale _r_=(_r_<sub>1</sub>_,r_<sub>2</sub>_,...,r<sub>m</sub>_) containing _m_ tokens that support this decision. The rationale serves two purposes: enhancing decision accuracy by jointly training the model to generate decisions and explanations, and improving user trust by providing the reasoning in PaSa application."
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.1844,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.3086
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "To optimize training efficiency for the Crawler, the decision token is presented before the rationale, allowing the Selector to act as a single-token reward model during the Crawler training. Additionally, the token probability of the decision token can be used to rank search results. At last, as shown in  7, the order of the decision and rationale does not affect the Selector\u2019s performance."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.3133,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.357
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "We perform imitation learning to optimize the Selector. See Appendix B for training data collection and training details."
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.3719,
+                    "xmax": 0.2872743169398907,
+                    "ymax": 0.3852
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## 5 Experiments"
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.3969,
+                    "xmax": 0.3469105039465696,
+                    "ymax": 0.4086
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "### 5.1 Experimental Setting"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16319902853673343,
+                    "ymin": 0.418,
+                    "xmax": 0.48859647844565873,
+                    "ymax": 0.4617
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "We sequentially trained the Selector and Crawler, both based on the Qwen2.5-7b (Yang et al., 2024), to develop the final agent, referred to as PaSa-7b."
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.4742,
+                    "xmax": 0.22083400121432908,
+                    "ymax": 0.4828
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "#### Selector"
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.4742,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.55
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "The Selector was fine-tuned using the training dataset described in Appendix B. We conducted supervised fine-tuning for one epoch with a learning rate of 1e-5 and a batch size of 4. The training runs on 8 NVIDIA-H100 GPUs."
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.5625,
+                    "xmax": 0.2228352155434123,
+                    "ymax": 0.5719
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "#### Crawler"
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.5625,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.7188
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "The training process involves two stages. First, we perform imitation learning for 1 epoch on 12,989 training data with a learning rate of 1e-5 and batch size of 4 per device, using 8 NVIDIA H100 GPUs. In the second stage, we apply PPO training. To ensure stability, we first freeze the policy model and train the value model, followed by co-training both the policy and value models. The hyperparameters used during the training process are listed in the  4."
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.7234,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.8156
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "During imitation learning, the model encounters 5,000 queries, while during the RL training phase, the model processes a total of 16,000 queries. For more details please refer to Appendix A.1 for the imitation learning data construction and Appendix A.2 for the PPO training data sampling."
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.8281,
+                    "xmax": 0.3606188221007893,
+                    "ymax": 0.8391
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "#### Implementation of \\[Search\\]"
+            }
+        },
+        {
+            "extraction_id": 12,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.8281,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.8875
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "This function utilizes the LLM to predict a query based on the context, and then calls Google<sup>7</sup> with the parameters site:arxiv.org and before:query\\_date,<tbc>"
+            }
+        },
+        {
+            "extraction_id": 13,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.4062,
+                    "xmax": 0.833505768063145,
+                    "ymax": 0.4313
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "<tbc>restricting search results by source and publication time."
+            }
+        },
+        {
+            "extraction_id": 14,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.4484,
+                    "xmax": 0.6439907710989677,
+                    "ymax": 0.4602
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "#### Paper Management"
+            }
+        },
+        {
+            "extraction_id": 15,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.4484,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.5383
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "We developed a database to manage and restore research papers. PaSa retrieves paper information from the database. If no matching record is found, we use ar5iv<sup>8</sup> to obtain the full paper content, including citations, and then parse this data and store it in the database."
+            }
+        },
+        {
+            "extraction_id": 16,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.557,
+                    "xmax": 0.7201369763205828,
+                    "ymax": 0.5664
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "### 5.2 Baselines and Evaluation"
+            }
+        },
+        {
+            "extraction_id": 17,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.5789,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.6359
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "We evaluate our paper search agent on both the test set of AutoScholarQuery and RealScholarQuery. We compare PaSa-7b against the following baselines:"
+            }
+        },
+        {
+            "extraction_id": 18,
+            "metadata": {
+                "source_page": 0,
+                "type": "List-item",
+                "bbox": {
+                    "xmin": 0.5306219793564055,
+                    "ymin": 0.657,
+                    "xmax": 0.8345063752276867,
+                    "ymax": 0.6984
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\u2022 **Google.** We use Google to search the query directly, with the same parameter settings in Section 5.1.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 19,
+            "metadata": {
+                "source_page": 0,
+                "type": "List-item",
+                "bbox": {
+                    "xmin": 0.5306219793564055,
+                    "ymin": 0.718,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.7617
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\u2022 **Google Scholar.** Queries are submitted directly to Google Scholar<sup>7</sup>, with the same parameter settings in Section 5.1.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 20,
+            "metadata": {
+                "source_page": 0,
+                "type": "List-item",
+                "bbox": {
+                    "xmin": 0.5306219793564055,
+                    "ymin": 0.7781,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.8227
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\u2022 **Google with GPT-4o.** We first employ GPT- 4o to paraphrase the scholar query. The paraphrased query is then searched on Google.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 21,
+            "metadata": {
+                "source_page": 0,
+                "type": "List-item",
+                "bbox": {
+                    "xmin": 0.5306219793564055,
+                    "ymin": 0.8391,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.8828
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\u2022 **ChatGPT.** We submit the scholar query to ChatGPT<sup>9</sup>, powered by search-enabled GPT- 4o. Due to the need for manual query submis<tbc>"
+            }
+        },
+        {
+            "extraction_id": 22,
+            "metadata": {
+                "source_page": 0,
+                "type": "Footnote",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.8953,
+                    "xmax": 0.6615013964784456,
+                    "ymax": 0.9195
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "<sup>7</sup>Accessed via the Google Search API provided by https: //serper.dev. <sup>8</sup>https://ar5iv.org/ <sup>9</sup>https://chatgpt.com"
+            }
+        },
+        {
+            "extraction_id": 23,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.4954006071645416,
+                    "ymin": 0.9445,
+                    "xmax": 0.503205343047966,
+                    "ymax": 0.9531
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "7"
+            }
+        },
+        {
+            "extraction_id": 24,
+            "metadata": {
+                "source_page": 0,
+                "type": "Table",
+                "bbox": {
+                    "xmin": 0.5159130540376441,
+                    "ymin": 0.0891,
+                    "xmax": 0.829603400121433,
+                    "ymax": 0.3539
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "tabular",
+                "content_html": "<table>\n  <tr>\n    <td></td>\n    <td><b>Name</b></td>\n    <td><b>Value</b></td>\n  </tr>\n  <tr>\n    <td>\\(\\alpha\\)</td>\n    <td>(Equation 1)</td>\n    <td>1.5</td>\n  </tr>\n  <tr>\n    <td><i>c</i>(\\[Search\\])</td>\n    <td>(Equation 1)</td>\n    <td>0.1</td>\n  </tr>\n  <tr>\n    <td><i>c</i>(\\[Expand\\])</td>\n    <td>(Equation 1)</td>\n    <td>0.1</td>\n  </tr>\n  <tr>\n    <td><i>c</i>(\\[Stop\\])</td>\n    <td>(Equation 1)</td>\n    <td>0.0</td>\n  </tr>\n  <tr>\n    <td>\\(\\gamma_0\\)</td>\n    <td>(Equation 3)</td>\n    <td>1.0</td>\n  </tr>\n  <tr>\n    <td>\\(\\gamma_1\\)</td>\n    <td>(Equation 3)</td>\n    <td>0.1</td>\n  </tr>\n  <tr>\n    <td>\\(\\beta\\)</td>\n    <td>(Equation 3)</td>\n    <td>0.1</td>\n  </tr>\n  <tr>\n    <td>\\(\\epsilon\\)</td>\n    <td>(Equation 5, Equation 6)</td>\n    <td>0.2</td>\n  </tr>\n  <tr>\n    <td>\\(\\eta\\)</td>\n    <td>(Equation 8)</td>\n    <td>10</td>\n  </tr>\n  <tr>\n    <td>learning rate</td>\n    <td></td>\n    <td>1e-6</td>\n  </tr>\n  <tr>\n    <td>epoch per step</td>\n    <td></td>\n    <td>2</td>\n  </tr>\n  <tr>\n    <td>forward batch size</td>\n    <td></td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>accumulate batch size</td>\n    <td></td>\n    <td>16</td>\n  </tr>\n  <tr>\n    <td>NVIDIA H100 GPU</td>\n    <td></td>\n    <td>16</td>\n  </tr>\n  <tr>\n    <td>policy freezing step</td>\n    <td></td>\n    <td>50</td>\n  </tr>\n  <tr>\n    <td>total step</td>\n    <td></td>\n    <td>250</td>\n  </tr>\n</table>"
+            }
+        },
+        {
+            "extraction_id": 25,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.5198154219793564,
+                    "ymin": 0.3719,
+                    "xmax": 0.8257010321797208,
+                    "ymax": 0.382
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "4: The hyperparameters used in PPO training."
+            }
+        }
+    ]
+}

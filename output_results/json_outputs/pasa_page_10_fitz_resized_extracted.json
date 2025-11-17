@@ -1,0 +1,445 @@
+{
+    "source_document": "output_results/resized_images/pasa_page_10_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-17T21:37:34.628656+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.3961,
+                    "xmax": 0.2462494231936855,
+                    "ymax": 0.4062
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## References"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.4195,
+                    "xmax": 0.48859647844565873,
+                    "ymax": 0.4672
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Shubham Agarwal, Issam H Laradji, Laurent Charlin, and Christopher Pal. 2024. Littlm: A toolkit for scientific literature review. _arXiv preprint arXiv:2402.01788_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.4844,
+                    "xmax": 0.48859647844565873,
+                    "ymax": 0.5703
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Marwah Alaofi, Luke Gallagher, Mark Sanderson, Falk Scholer, and Paul Thomas. 2023. Can generative llms create query variants for test collections? an exploratory study. In _Proceedings of the 46th international ACM SIGIR conference on research and development in information retrieval_, pages 1869- 1873.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.5875,
+                    "xmax": 0.48859647844565873,
+                    "ymax": 0.6367
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "A Anthropic. 2024. The Claude 3 model family: Opus, sonnet, haiku; 2024. _URL https://www- cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7 bbc618857627/Model\\_Card\\_Claude\\_3.pdf_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.6516,
+                    "xmax": 0.48859647844565873,
+                    "ymax": 0.7117
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Jinheon Baek, Sujay Kumar Jauhar, Silviu Cucerzan, and Sung Ju Hwang. 2024. Researchagent: Iterative research idea generation over scientific literature with large language models. _arXiv preprint arXiv:2404.07738_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.7289,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.7781
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Andres M Bran, Sam Cox, Oliver Schilter, Carlo Baldassari, Andrew D White, and Philippe Schwaller. 2023. Chemcrow: Augmenting large-language models with chemistry tools. _arXiv preprint arXiv:2304.05376_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.793,
+                    "xmax": 0.48859647844565873,
+                    "ymax": 0.843
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Guangyao Chen, Siwei Dong, Yu Shu, Ge Zhang, Jaward Sesay, B\u00f6rje F Karlsson, Jie Fu, and Yemin Shi. 2023. Autoagents: A framework for automatic agent generation. _arXiv preprint arXiv:2309.17288_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.857,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.918
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Xiang Deng, Yu Gu, Boyuan Zheng, Shijie Chen, Sam Stevens, Boshi Wang, Huan Sun, and Yu Su. 2024. Mind2web: Towards a generalist agent for the web. _Advances in Neural Information Processing Systems_, 36.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.2445,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.2938
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Peiyuan Feng, Yichen He, Guanhua Huang, Yuan Lin, Hanchong Zhang, Yuchen Zhang, and Hang Li. 2024. Agile: A novel framework of llm agents. _arXiv preprint arXiv:2405.14751_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.3063,
+                    "xmax": 0.8345063752276867,
+                    "ymax": 0.3414
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Team Gemini. 2023. Gemini: a family of highly capable multimodal models. _arXiv preprint arXiv:2312.11805_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.3563,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.4031
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Karan Girotra, Lennart Meincke, Christian Terwiesch, and Karl T Ulrich. 2023. Ideas are dimes a dozen: Large language models for idea generation in innovation. _Available at SSRN 4526071_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.4188,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.4813
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Aharva Gundawar, Mudit Verma, Lin Guan, Karthik Valmeekam, Siddhant Bhambri, and Subbarao Kambhampati. 2024. Robust planning with llm-modulo framework: Case study in travel planning. _arXiv preprint arXiv:2405.20625_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 12,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.4938,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.5687
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Michael Gusenbauer and Neal R Haddaway. 2020. Which academic search systems are suitable for systematic reviews or meta-analyses? evaluating retrieval qualities of google scholar, pubmed, and 26 other resources. _Research synthesis methods_, 11(2):181-217.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 13,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.582,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.6438
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Michael Gusenbauer and Neal R Haddaway. 2021. What every researcher should know about searching- clarified concepts, search advice, and an agenda to improve finding in academia. _Research synthesis methods_, 12(2):136-147.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 14,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.6578,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.718
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Aaron Hurst, Adam Lerer, Adam P Goucher, Adam Perelman, Aditya Ramesh, Aidan Clark, AJ Ostrow, Akila Welihinda, Alan Hayes, Alec Radford, et al. 2024. Gpt-4o system card. _arXiv preprint arXiv:2410.21276_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 15,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.7328,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.7945
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Karl Kingsley, Gillian M Galbraith, Matthew Herring, Eva Stowers, Tanis Stewart, and Karla V Kingsley. 2011. Why not just google it? an assessment of information literacy skills in a biomedical science curriculum. _BMC medical education_, 11:1-8.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 16,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.8078,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.8812
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Minghan Li, Honglei Zhuang, Kai Hui, Zhen Qin, Jimmy Lin, Rolf Jagerman, Xuanhui Wang, and Michael Bendersky. 2023. Generate, filter, and fuse: Query expansion via multi-step keyword generation for zero-shot neural rankers. _arXiv preprint arXiv:2311.09175_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 17,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.8969,
+                    "xmax": 0.833505768063145,
+                    "ymax": 0.9203
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Zhehui Liao, Maria Antoniak, Inyoung Cheong, Evie Yu-Yen Cheng, Ai-Heng Lee, Kyle Lo, Joseph Chee<tbc>"
+            }
+        },
+        {
+            "extraction_id": 18,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.4914982392228294,
+                    "ymin": 0.9445,
+                    "xmax": 0.5071077109896782,
+                    "ymax": 0.9531
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "10"
+            }
+        },
+        {
+            "extraction_id": 19,
+            "metadata": {
+                "source_page": 0,
+                "type": "Table",
+                "bbox": {
+                    "xmin": 0.17880850030358225,
+                    "ymin": 0.0891,
+                    "xmax": 0.8197974499089253,
+                    "ymax": 0.1922
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "tabular",
+                "content_html": "<table>\n  <tr>\n    <td rowspan=\"2\"><b>Method</b></td>\n    <td colspan=\"3\"><b>AutoScholarQuery</b></td>\n    <td colspan=\"3\"><b>RealScholarQuery</b></td>\n  </tr>\n  <tr>\n    <td><b>Crawler Recall</b></td>\n    <td><b>Precision</b></td>\n    <td><b>Recall</b></td>\n    <td><b>Crawler Recall</b></td>\n    <td><b>Precision</b></td>\n    <td><b>Recall</b></td>\n  </tr>\n  <tr>\n    <td>w/o \\[Expand\\]</td>\n    <td>0.3355</td>\n    <td>0.1445</td>\n    <td>0.2536</td>\n    <td>0.3359</td>\n    <td>0.6738</td>\n    <td>0.2890</td>\n  </tr>\n  <tr>\n    <td>w/o RL training</td>\n    <td>0.6556</td>\n    <td>0.1476</td>\n    <td>0.4210</td>\n    <td>0.4847</td>\n    <td>0.5155</td>\n    <td>0.4115</td>\n  </tr>\n  <tr>\n    <td>w/o Selector as RM</td>\n    <td>0.7041</td>\n    <td>0.1535</td>\n    <td>0.4458</td>\n    <td>0.5994</td>\n    <td>0.5489</td>\n    <td>0.5148</td>\n  </tr>\n  <tr>\n    <td>PaSa-7b</td>\n    <td>0.7931</td>\n    <td>0.1448</td>\n    <td>0.4834</td>\n    <td>0.7071</td>\n    <td>0.5146</td>\n    <td>0.6111</td>\n  </tr>\n</table>"
+            }
+        },
+        {
+            "extraction_id": 20,
+            "metadata": {
+                "source_page": 0,
+                "type": "Table",
+                "bbox": {
+                    "xmin": 0.17980910746812387,
+                    "ymin": 0.2453,
+                    "xmax": 0.4709857923497268,
+                    "ymax": 0.3305
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "tabular",
+                "content_html": "<table>\n  <tr>\n    <td>\\(\\alpha\\)</td>\n    <td><b>Crawler Recall</b></td>\n    <td><b>Crawler Actions</b></td>\n  </tr>\n  <tr>\n    <td>0.5</td>\n    <td>0.7227</td>\n    <td>175.9</td>\n  </tr>\n  <tr>\n    <td>1.0</td>\n    <td>0.7708</td>\n    <td>319.8</td>\n  </tr>\n  <tr>\n    <td>1.5</td>\n    <td>0.7931</td>\n    <td>382.4</td>\n  </tr>\n  <tr>\n    <td>2.0</td>\n    <td>0.8063</td>\n    <td>785.5</td>\n  </tr>\n</table>"
+            }
+        },
+        {
+            "extraction_id": 21,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.2491511839708561,
+                    "ymin": 0.2102,
+                    "xmax": 0.7484541590771099,
+                    "ymax": 0.2203
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "8: Ablation study results on AutoScholarQuery test set and RealScholarQuery."
+            }
+        },
+        {
+            "extraction_id": 22,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.3492,
+                    "xmax": 0.4865952641165756,
+                    "ymax": 0.3734
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "9: Performance of the Crawler trained on different reward coefficient \\(\\alpha\\) on AutoScholarQuery test set."
+            }
+        }
+    ]
+}

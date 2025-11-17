@@ -1,0 +1,521 @@
+{
+    "source_document": "output_results/resized_images/pasa_page_11_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-17T21:37:38.525549+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.17980910746812387,
+                    "ymin": 0.0891,
+                    "xmax": 0.4865952641165756,
+                    "ymax": 0.125
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Chang, and Amy X Zhang. 2024. Llms as research tools: A large scale survey of researchers\u2019 usage and perceptions. _arXiv preprint arXiv:2411.05025_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.1391,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.2016
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Zhihan Liu, Hao Hu, Shenao Zhang, Hongyi Guo, Shuqi Ke, Boyi Liu, and Zhaoran Wang. 2023. Reason for future, act for now: A principled framework for autonomous llm agents with provable sample efficiency. _arXiv preprint arXiv:2309.17382_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.2148,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.2641
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Chris Lu, Cong Lu, Robert Tjarko Lange, Jakob Foerster, Jeff Clune, and David Ha. 2024. The ai scientist: Towards fully automated open-ended scientific discovery. _arXiv preprint arXiv:2408.06292_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.2781,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.3273
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Andres M. Bran, Sam Cox, Oliver Schilter, Carlo Baldassari, Andrew D White, and Philippe Schwaller. 2024. Augmenting large language models with chemistry tools. _Nature Machine Intelligence_, pages 1-11.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.3406,
+                    "xmax": 0.48859647844565873,
+                    "ymax": 0.3883
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Xinbei Ma, Yeyun Gong, Pengcheng He, Hai Zhao, and Nan Duan. 2023. Query rewriting for retrieval- augmented large language models. _arXiv preprint arXiv:2305.14283_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.4039,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.4398
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Lisa Messeri and MJ Crockett. 2024. Artificial intelligence and illusions of understanding in scientific research. _Nature_, 627(8002):49-58.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.4539,
+                    "xmax": 0.4865952641165756,
+                    "ymax": 0.475
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "OpenAI. 2023. Gpt-4 technical report. _arXiv preprint arXiv:2303.08774_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.4906,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.5664
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Joon Sung Park, Joseph O\u2019Brien, Carrie Jun Cai, Meredith Ringel Morris, Percy Liang, and Michael S Bernstein. 2023. Generative agents: Interactive simulacra of human behavior. In _Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology_, pages 1-22.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.5797,
+                    "xmax": 0.48859647844565873,
+                    "ymax": 0.6555
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Wenjun Peng, Guiyang Li, Yue Jiang, Zilong Wang, Dan Ou, Xiaoyi Zeng, Derong Xu, Tong Xu, and Enhong Chen. 2024. Large language model based long-tail query rewriting in taobao search. In _Companion Proceedings of the ACM on Web Conference 2024_, pages 20-28.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.6687,
+                    "xmax": 0.4865952641165756,
+                    "ymax": 0.7289
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Pranav Putta, Edmund Mills, Naman Garg, Sumeet Motwani, Chelsea Finn, Divyansh Garg, and Rafael Rafailov. 2024. Agent q: Advanced reasoning and learning for autonomous ai agents. _arXiv preprint arXiv:2408.07199_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.7445,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.7937
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Chen Qian, Xin Cong, Cheng Yang, Weize Chen, Yusheng Su, Juyuan Xu, Zhiyuan Liu, and Maosong Sun. 2023. Communicative agents for software development. _arXiv preprint arXiv:2307.07924_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.8078,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.8547
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. 2017. Proximal policy optimization algorithms. _arXiv preprint arXiv:1707.06347_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 12,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.8703,
+                    "xmax": 0.48859647844565873,
+                    "ymax": 0.9195
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Yijia Shao, Yucheng Jiang, Theodore Kanell, Peter Xu, Omar Khattab, and Monica Lam. 2024. Assisting in writing Wikipedia-like articles from scratch with large language models. In _Proceedings of the 2024_<tbc>"
+            }
+        },
+        {
+            "extraction_id": 13,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5276201578627808,
+                    "ymin": 0.0891,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.1516
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)_, pages 6252-6278, Mexico City, Mexico. Association for Computational Linguistics.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 14,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.1641,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.2266
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, and Shunyu Yao. 2024. Reflexion: Language agents with verbal reinforcement learning. _Advances in Neural Information Processing Systems_, 36.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 15,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.2406,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.2898
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Jess Stratton. 2024. An introduction to microsoft copilot. In _Copilot for Microsoft 365: Harness the Power of Generative AI in the Microsoft Apps You Use Every Day_, pages 19-35. Springer.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 16,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.3023,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.3391
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Richard Van Noorden and Jeffrey M Perkel. 2023. Ai and science: what 1,600 researchers think. _Nature_, 621(7980):672-675.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 17,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.3523,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.4414
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Qingyun Wang, Doug Downey, Heng Ji, and Tom Hope. 2024a. SciMON: Scientific inspiration machines optimized for novelty. In _Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)_, pages 279-299, Bangkok, Thailand. Association for Computational Linguistics.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 18,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.4539,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.5164
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Yidong Wang, Qi Guo, Wenjin Yao, Hongbo Zhang, Xin Zhang, Zhen Wu, Meishan Zhang, Xinyu Dai, Min Zhang, Qingsong Wen, et al. 2024b. Autosurvey: Large language models can automatically write surveys. _arXiv preprint arXiv:2406.10252_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 19,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.5297,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.5922
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Frank F Xu, Uri Alon, Graham Neubig, and Vincent Josua Hellendoorn. 2022. A systematic evaluation of large language models of code. In _Proceedings of the 6th ACM SIGPLAN International Symposium on Machine Programming_, pages 1-10.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 20,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.6055,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.6547
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "An Yang, Baosong Yang, Beichen Zhang, Binyuan Hui, Bo Zheng, Bowen Yu, Chengyuan Li, Dayiheng Liu, Fei Huang, Haoran Wei, et al. 2024. Qwen2. 5 technical report. _arXiv preprint arXiv:2412.15115_.<tbc>"
+            }
+        },
+        {
+            "extraction_id": 21,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.668,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.718
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. 2023. React: synergizing reasoning and acting in language models (2022). _arXiv preprint arXiv:2210.03629_."
+            }
+        },
+        {
+            "extraction_id": 22,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.7336,
+                    "xmax": 0.833505768063145,
+                    "ymax": 0.7461
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## A Implementation Details of the Crawler"
+            }
+        },
+        {
+            "extraction_id": 23,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.7594,
+                    "xmax": 0.7885785063752278,
+                    "ymax": 0.7703
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "### A.1 Imitation learning data generation"
+            }
+        },
+        {
+            "extraction_id": 24,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.7805,
+                    "xmax": 0.8345063752276867,
+                    "ymax": 0.8406
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "We generate training data for imitation learning on a session-by-session basis. There are two types of sessions: _search session_ (starting from state _S<sub>q</sub>_) and _expand session_ (starting from state _S_<sub>_q+p_</sub>)."
+            }
+        },
+        {
+            "extraction_id": 25,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.8445,
+                    "xmax": 0.8345063752276867,
+                    "ymax": 0.9203
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "For search sessions starting from _S<sub>q</sub>_, we sample user queries from the AutoScholarQuery training set and prompt GPT-4o to generate corresponding search queries. The prompt template is shown in  10. The session trajectory is constructed<tbc>"
+            }
+        },
+        {
+            "extraction_id": 26,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.4914982392228294,
+                    "ymin": 0.9445,
+                    "xmax": 0.5071077109896782,
+                    "ymax": 0.9531
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "11"
+            }
+        }
+    ]
+}

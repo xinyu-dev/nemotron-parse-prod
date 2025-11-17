@@ -1,0 +1,388 @@
+{
+    "source_document": "output_results/resized_images/pasa_page_12_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-17T21:37:41.145549+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.0875,
+                    "xmax": 0.48859647844565873,
+                    "ymax": 0.1477
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "<tbc>by adding a `[Search]` token before each query, concatenating the queries, and appending a `[Stop]` token at the end, as shown in  11. A total of 3,011 search session trajectories are generated."
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.1547,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.375
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "For expand sessions starting from _S_<sub>_q+p_</sub>, we continue by searching for the generated queries using Google. We then sample papers from the search results and obtain the initial state, which includes both the query and a paper. To build the session trajectory, we examine each sub-section of the paper. If the sub-section references at least one paper in the AutoScholarQuery training set corresponding to the query, the sub-section is selected. Otherwise, the sub-section is selected with a 10% probability to enhance trajectory diversity. The selected sections are filled into the template in  11, completing the session trajectory. In total, 9,978 expand session trajectories are constructed."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.3969,
+                    "xmax": 0.37812944748026717,
+                    "ymax": 0.4086
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "### A.2 Roll-Out in PPO training"
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.4219,
+                    "xmax": 0.4865952641165756,
+                    "ymax": 0.5461
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "During PPO training, each device processes 4 user queries in each step, generating a search session for each user query. Then, 6 expansion sessions are created by randomly sampling 6 papers from the search results. This process is repeated with the expand citation results, yielding 6 additional expand sessions. In total, 16 session trajectories are generated per step."
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.568,
+                    "xmax": 0.4826928961748634,
+                    "ymax": 0.5813
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## B Implementation Details of the Selector"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.5992,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.7391
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "We begin by sampling user queries from the AutoScholarQuery training set. For each user query and one of its corresponding papers in the AutoScholarQuery training set, we prompt GPT-40 to generate a decision token and rationale (see  15 for prompt). We reject any data where the decision token is \"False\", as this contradicts the AutoScholarQuery label. The remaining data are retained as positive \\<user query, paper\\> pairs."
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.7461,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.8375
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Next, we simulate a partial paper search using PaSa-GPT-40. In this simulation, each paper has a 50% probability of being added to the paper queue. Pairs where the paper is not selected by GPT-40 and is not in the AutoScholarQuery training set are labeled as negative examples."
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16219842137219187,
+                    "ymin": 0.8445,
+                    "xmax": 0.4865952641165756,
+                    "ymax": 0.9203
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "The final training dataset consists of 19,812 \\<user query, paper\\> pairs, each with a decision token and rationale generated by GPT-40, drawn from 9,000 instances in the AutoScholarQuery training set."
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.0875,
+                    "xmax": 0.6996245294474803,
+                    "ymax": 0.0969
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## C Selector Test Dataset"
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.5091089253187614,
+                    "ymin": 0.1125,
+                    "xmax": 0.8345063752276867,
+                    "ymax": 0.2531
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "We select 200 queries from the AutoScholarQuery development set. For each query, we perform a Google search and randomly choose one paper from the union of the search results and the relevant paper set in AutoScholarQuery. This yields a set of \\<user query, paper\\> pairs. Annotators then evaluate whether each paper aligns with the requirements of the user query. The final test dataset consists of 98 positive samples and 102 negative samples."
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.2687,
+                    "xmax": 0.6772109289617486,
+                    "ymax": 0.2812
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## D Dataset Examples"
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.2945,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.3227
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "12 shows the examples of queries and corresponding papers in RealScholarQuery."
+            }
+        },
+        {
+            "extraction_id": 12,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.3375,
+                    "xmax": 0.6801126897389193,
+                    "ymax": 0.3508
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## E Prompt Templates"
+            }
+        },
+        {
+            "extraction_id": 13,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.3633,
+                    "xmax": 0.7016257437765635,
+                    "ymax": 0.375
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "### E.1 Prompts for Baselines"
+            }
+        },
+        {
+            "extraction_id": 14,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.3844,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.4258
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "13 exhibits the search query paraphrasing prompt for the baseline model **Google with GPT- 40**."
+            }
+        },
+        {
+            "extraction_id": 15,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.4328,
+                    "xmax": 0.8345063752276867,
+                    "ymax": 0.4602
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "14 exhibits the prompt for the baseline model **ChatGPT** (search-enabled GPT-40)."
+            }
+        },
+        {
+            "extraction_id": 16,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.475,
+                    "xmax": 0.7387482695810564,
+                    "ymax": 0.4867
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "### E.2 Prompt for Paper Selection"
+            }
+        },
+        {
+            "extraction_id": 17,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.4961,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.5398
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "15 shows the prompt for PaSa selector and gpt-40 to judge whether a paper matches the requirements of the user\u2019s query."
+            }
+        },
+        {
+            "extraction_id": 18,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.5445,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.6367
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "16 presents the prompt template used with GPT-40 to automatically generate AutoScholarQuery. For each paper, we extract the Related Work section, input it into GPT-40, and use the prompt to extract scholarly queries and their corresponding paper answers from the Related Work section."
+            }
+        },
+        {
+            "extraction_id": 19,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.4914982392228294,
+                    "ymin": 0.9445,
+                    "xmax": 0.5071077109896782,
+                    "ymax": 0.9531
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "12"
+            }
+        }
+    ]
+}

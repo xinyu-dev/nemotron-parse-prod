@@ -1,0 +1,540 @@
+{
+    "source_document": "output_results/resized_images/pasa_page_6_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-17T21:37:20.707944+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.0875,
+                    "xmax": 0.4865952641165756,
+                    "ymax": 0.1141
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Here, \\(\\alpha\\) is a reward coefficient, and _c(a<sub>t</sub>_) is the cost of action _a<sub>t</sub>_."
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.1195,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.293
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "The indicator function I(_q,p<sub>i</sub>,t_) can be determined by checking if _p<sub>i</sub>_ belongs to P-Q_<sub>t</sub>_. However, it is important to note that the AutoScholarQuery may only include a subset of the ground- truth papers, as citations often emphasize a limited number of key references. If the Crawler receives rewards solely based on matching papers in AutoScholarQuery, this could lead to sparse rewards during training. To mitigate this, we use the Selector as an auxiliary reward model for the Crawler. The revised definition of I(_q,p<sub>i</sub>,t_) is:"
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.17300497874924103,
+                    "ymin": 0.3094,
+                    "xmax": 0.4875958712811172,
+                    "ymax": 0.3547
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(\\mathbb{I}(q,p_i,t)=\\left\\{\\begin{array}{ c c }\n1, & \\text{if}(\\text{Selector}(q,p_i)=1\\text{or}p_i\\in\\mathcal{P}) \\\\\n & \\text{and}p_i\\notin\\mathcal{Q}_t, \\\\\n0, & \\text{otherwise.}\n\\end{array}\\right.\\) (2)"
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.3633,
+                    "xmax": 0.4865952641165756,
+                    "ymax": 0.4078
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Here Selector(_q,p<sub>i</sub>_)=1 if paper _p<sub>i</sub>_ is identified as correct to meet the query _q_ by the Selector, and Selector(_q,p<sub>i</sub>_)=0 otherwise."
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.4195,
+                    "xmax": 0.2550547662416515,
+                    "ymax": 0.4313
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "### RL Training"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.4195,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.5281
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "A key challenge in training the Crawler with RL is the significant time required to sample a complete trajectory for a given query. This is due to each \\[Search\\] or \\[Expand\\] action adding multiple papers to the paper list, resulting in hundreds or even thousands of papers in the final paper queue."
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.5328,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.6242
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "To address this issue, we define a _session_ as a sub-trajectory that begins with a session\u2019s initial state and ends with the \\[Stop\\] action. We identify two types of session initial states: _S<sub>q</sub>_, which includes only a query, and _S_<sub>_q+p_</sub>, which consists of both a query and a paper."
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16319902853673343,
+                    "ymin": 0.6289,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.7516
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Formally, we model the Crawler as a policy \\(\\pi_\\theta(a_t|s_t)\\). We partition the entire trajectory \\(\\tau\\) into a sequence of sessions: \\((\\tau_{t_1:t_2-1},\\tau_{t_2:t_3-1},\\cdots)\\). Each session is \\(\\tau_{t_i:t_{i+1}-1}=(s_{t_i},a_{t_i},\\cdots,s_{t_{i+1}-1},a_{t_{i+1}-1})\\), where the initial state _s<sub>t<sub>i</sub></sub>_ is either belonging to type _S<sub>q</sub>_ or _S_<sub>_q+p_</sub>, and the final action _a_<sub>_t_<sub>_i_+1</sub>-1</sub> is \\[STOP\\]."
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.7578,
+                    "xmax": 0.4895970856102004,
+                    "ymax": 0.8336
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Sampling such a sub-trajectory from these session initial states is computationally efficient. During the PPO training, at time step \\(t\\in[t_i,t_{i+1})\\), we estimate the return in the session using Monte Carlo sampling:"
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.17980910746812387,
+                    "ymin": 0.8516,
+                    "xmax": 0.4875958712811172,
+                    "ymax": 0.8844
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(\\hat{R}_t=\\sum_{k=0}^{t_{i+1}-1-t}\\gamma_0^k\\big[r(s_{t+k},a_{t+k})\\) (3)"
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.23454231936854888,
+                    "ymin": 0.8906,
+                    "xmax": 0.4709857923497268,
+                    "ymax": 0.9227
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(+\\gamma_1\\sum_{j=1}^{n_{t+k}}\\hat{V}_\\phi(S_{q+p_j})-\\beta\\cdot log\\frac{\\pi_\\theta(a_t|s_t)}{\\pi_\\text{sft}(a_t|s_t)}\\big]\\)"
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.510109532483303,
+                    "ymin": 0.0883,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.3086
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Here, \\(\\gamma_0\\) is the in-session discount factor, and \\(\\gamma_1\\) is the across-session discount factor. \\(\\hat{V}_\\phi(\\cdot)\\) is the value function model to approximate the state value. After executing _a_<sub>_t+k_</sub>, the paper queue is updated to include the newly found papers \\((p_1,p_2,\\cdots,p_{n_{t+k}})\\). Since the Crawler will subsequently initiate new sessions to process these additional papers, their associated reward-to-go should be incorporated into the return estimate. In addition, we include a per-token KL penalty term from the learned policy \\(\\pi_\\theta\\) to the initial policy \\(\\pi_\\text{sft}\\) obtained through imitation learning at each token to mitigate over-optimization. This term is scaled by the coefficient \\(\\beta\\)."
+            }
+        },
+        {
+            "extraction_id": 12,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.3133,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.3414
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Then the advantage function can be approximated by"
+            }
+        },
+        {
+            "extraction_id": 13,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.5921593199757134,
+                    "ymin": 0.3641,
+                    "xmax": 0.8355069823922282,
+                    "ymax": 0.3766
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(\\hat{A}(s_t,a_t)=\\hat{R}_t-\\hat{V}_\\phi(s_t).\\) (4)"
+            }
+        },
+        {
+            "extraction_id": 14,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.3937,
+                    "xmax": 0.8345063752276867,
+                    "ymax": 0.4211
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Finally, the policy and value objectives can be given by"
+            }
+        },
+        {
+            "extraction_id": 15,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.5218166363084396,
+                    "ymin": 0.4437,
+                    "xmax": 0.8355069823922282,
+                    "ymax": 0.4758
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(\\mathcal{L}_\\text{policy}(\\theta)=\\mathbb{E}_{\\tau^\\prime\\sim\\pi_\\theta^\\text{old}}\\big[min\\big(\\frac{\\pi_\\theta(a_t|s_t)}{\\pi_\\theta^\\text{old}(a_t|s_t)}\\hat{A}(s_t,a_t),\\) (5)"
+            }
+        },
+        {
+            "extraction_id": 16,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.5589391621129326,
+                    "ymin": 0.4805,
+                    "xmax": 0.7953826350941106,
+                    "ymax": 0.5117
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(\\text{clip}\\big(\\frac{\\pi_\\theta(a_t|s_t)}{\\pi_\\theta^\\text{old}(a_t|s_t)},1-\\epsilon,1+\\epsilon\\big)\\hat{A}(s_t,a_t)\\big)\\big]\\)"
+            }
+        },
+        {
+            "extraction_id": 17,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.5159130540376441,
+                    "ymin": 0.5258,
+                    "xmax": 0.5394273224043716,
+                    "ymax": 0.5344
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "and"
+            }
+        },
+        {
+            "extraction_id": 18,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.5335237401335762,
+                    "ymin": 0.5594,
+                    "xmax": 0.8355069823922282,
+                    "ymax": 0.5914
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(\\mathcal{L}_\\text{value}(\\phi)=\\mathbb{E}_{\\tau^\\prime\\sim\\pi_\\theta^\\text{old}}\\big[max\\big(\\big(\\hat{R}_\\text{t}-\\hat{V}_\\phi(s_\\text{t})\\big)^2,\\) (6)"
+            }
+        },
+        {
+            "extraction_id": 19,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.640988949605343,
+                    "ymin": 0.5961,
+                    "xmax": 0.7670654523375835,
+                    "ymax": 0.6281
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(\\big(\\hat{R}_t-\\hat{V}_\\phi^\\text{clip}(s_t)\\big)^2\\big)\\big],\\)"
+            }
+        },
+        {
+            "extraction_id": 20,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.5159130540376441,
+                    "ymin": 0.6414,
+                    "xmax": 0.639087795992714,
+                    "ymax": 0.6531
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "respectively, where"
+            }
+        },
+        {
+            "extraction_id": 21,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.5140119004250152,
+                    "ymin": 0.6664,
+                    "xmax": 0.8355069823922282,
+                    "ymax": 0.6852
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(\\hat{V}_\\phi^\\text{clip}(s_t)=\\text{clip}\\big(\\hat{V}_\\phi(s_t),V_\\phi^\\text{old}(s_t)-\\epsilon,V_\\phi^\\text{old}(s_t)+\\epsilon\\big).\\) (7)"
+            }
+        },
+        {
+            "extraction_id": 22,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.6984,
+                    "xmax": 0.8345063752276867,
+                    "ymax": 0.7422
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Here, \\(\\pi_\\theta^\\text{old}\\) and \\(V_\\phi^\\text{old}\\) is used for sampling and \\(\\tau'\\) is session trajectory. We then combine these into the unified RL loss:"
+            }
+        },
+        {
+            "extraction_id": 23,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.5569379477838494,
+                    "ymin": 0.7703,
+                    "xmax": 0.8355069823922282,
+                    "ymax": 0.7805
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(\\mathcal{L}_\\text{RL}(\\theta,\\phi)=\\mathcal{L}_\\text{policy}(\\theta)+\\eta\\cdot\\mathcal{L}_\\text{value}(\\phi)\\) (8)"
+            }
+        },
+        {
+            "extraction_id": 24,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.5159130540376441,
+                    "ymin": 0.7977,
+                    "xmax": 0.8236998178506376,
+                    "ymax": 0.8086
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "where \\(\\eta\\) is the coefficient of the value objective."
+            }
+        },
+        {
+            "extraction_id": 25,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.512010686095932,
+                    "ymin": 0.8234,
+                    "xmax": 0.6038664238008501,
+                    "ymax": 0.8328
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## 4.3 Selector"
+            }
+        },
+        {
+            "extraction_id": 26,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.5110100789313905,
+                    "ymin": 0.8445,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.9203
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "The Selector is an LLM agent that takes two inputs: a scholar query and a research paper (including its title and abstract). It generates two outputs: (1) a single decision token _d_, either \"True\" or \"False\", indicating whether the paper satisfies the query,<tbc>"
+            }
+        },
+        {
+            "extraction_id": 27,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.4954006071645416,
+                    "ymin": 0.9445,
+                    "xmax": 0.503205343047966,
+                    "ymax": 0.9531
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "6"
+            }
+        }
+    ]
+}

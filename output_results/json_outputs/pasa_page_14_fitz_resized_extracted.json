@@ -1,0 +1,103 @@
+{
+    "source_document": "output_results/resized_images/pasa_page_14_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-17T21:37:46.681860+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.4914982392228294,
+                    "ymin": 0.9445,
+                    "xmax": 0.5071077109896782,
+                    "ymax": 0.9531
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "14"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Table",
+                "bbox": {
+                    "xmin": 0.16510018214936248,
+                    "ymin": 0.1062,
+                    "xmax": 0.8511164541590771,
+                    "ymax": 0.6594
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "tabular",
+                "content_html": "<table>\n  <tr>\n    <td colspan=\"2\"><b>Query:</b> Give me papers about how to rank search results by the use of LLM</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\"><b>Query Date:</b> 2024-10-01</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\"><b>Answer Papers:</b></td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[0\\] Instruction Distillation Makes Large Language Models Efficient Zero-shot Rankers</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[1\\] Beyond Yes and No: Improving Zero-Shot LLM Rankers via Scoring Fine-Grained Relevance Labels</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[2\\] Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[3\\] A Setwise Approach for Effective and Highly Efficient Zero-shot Ranking with Large Language Models</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[4\\] RankVicuna: Zero-Shot Listwise Document Reranking with Open-Source Large Language Models</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[5\\] PaRaDe: Passage Ranking using Demonstrations with Large Language Models</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[6\\] Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[7\\] Large Language Models are Zero-Shot Rankers for Recommender Systems</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[8\\] TourRank: Utilizing Large Language Models for Documents Ranking with a Tournament-Inspired Strategy</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[9\\] ExaRanker: Explanation-Augmented Neural Ranker</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[10\\] RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[11\\] Make Large Language Model a Better Ranker</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[12\\] LLM-RankFusion: Mitigating Intrinsic Inconsistency in LLM-based Ranking</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[13\\] Improving Zero-shot LLM Re-Ranker with Risk Minimization</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[14\\] Zero-Shot Listwise Document Reranking with a Large Language Model</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[15\\] Consolidating Ranking and Relevance Predictions of Large Language Models through Post-Processing</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[16\\] Re-Ranking Step by Step: Investigating Pre-Filtering for Re-Ranking with Large Language Models</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[17\\] Large Language Models for Relevance Judgment in Product Search</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[18\\] PromptReps: Prompting Large Language Models to Generate Dense and Sparse Representations for Zero-Shot Document Retrieval</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[19\\] Passage-specific Prompt Tuning for Passage Reranking in Question Answering with Large Language Models</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[20\\] When Search Engine Services meet Large Language Models: Visions and Challenges</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[21\\] RankZephyr: Effective and Robust Zero-Shot Listwise Reranking is a Breeze!</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[22\\] Rank-without-GPT: Building GPT-Independent Listwise Rerankers on Open-Source Large Language Models</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[23\\] MuGI: Enhancing Information Retrieval through Multi-Text Generation Integration with Large Language Models</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[24\\] Discrete Prompt Optimization via Constrained Generation for Zero-shot Re-ranker</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[25\\] REAR: A Relevance-Aware Retrieval-Augmented Framework for Open-Domain Question Answering</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[26\\] Agent4Ranking: Semantic Robust Ranking via Personalized Query Rewriting Using Multi-agent LLM</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[27\\] FIRST: Faster Improved Listwise Reranking with Single Token Decoding</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[28\\] Leveraging LLMs for Unsupervised Dense Retriever Ranking</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[29\\] Unsupervised Contrast-Consistent Ranking with Language Models</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[30\\] Enhancing Legal Document Retrieval: A Multi-Phase Approach with Large Language Models</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[31\\] Found in the Middle: Permutation Self-Consistency Improves Listwise Ranking in Large Language Models</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[32\\] Fine-Tuning LLaMA for Multi-Stage Text Retrieval</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[33\\] Zero-shot Audio Topic Reranking using Large Language Models</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[34\\] Uncovering ChatGPT\u2019s Capabilities in Recommender Systems</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[35\\] Cognitive Personalized Search Integrating Large Language Models with an Efficient Memory Mechanism</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[36\\] Towards More Relevant Product Search Ranking Via Large Language Models: An Empirical Study</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[37\\] Pretrained Language Model based Web Search Ranking: From Relevance to Satisfaction</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[38\\] Open-source large language models are strong zero-shot query likelihood models for document ranking</td>\n  </tr>\n</table>"
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Table",
+                "bbox": {
+                    "xmin": 0.16419963570127505,
+                    "ymin": 0.7414,
+                    "xmax": 0.8306040072859745,
+                    "ymax": 0.8664
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "tabular",
+                "content_html": "<table>\n  <tr>\n    <td colspan=\"2\"><b>The prompt for search query paraphrase.</b></td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">Generate a search query suitable for Google based on the given academic paper-related query. Here\u2019s the structure and requirements for generating the search query:</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">Understand the Query: Read and understand the given specific academic query.</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">Identify Key Elements: Extract the main research field and the specific approaches or topics mentioned in the query.</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">te the Search Query: Combine these elements into a concise query that includes terms indicating academic sources.</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">Do not add any site limitations to your query.</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[User\u2019s Query\\]: {user_query}</td>\n  </tr>\n  <tr>\n    <td colspan=\"2\">\\[Generated Search Query\\]:</td>\n  </tr>\n</table>"
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.2667618700667881,
+                    "ymin": 0.6734,
+                    "xmax": 0.7318440801457196,
+                    "ymax": 0.6844
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "12: Examples of queries and corresponding papers in RealScholarQuery."
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.34981226472374016,
+                    "ymin": 0.8836,
+                    "xmax": 0.64789313904068,
+                    "ymax": 0.8945
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "13: The prompt for search query paraphrase."
+            }
+        }
+    ]
+}
