@@ -1,0 +1,28 @@
+{
+  "pipeline_step": "step1_pdf_to_images",
+  "timestamp_start_utc": "2025-11-17T21:30:04.004438+00:00",
+  "timestamp_end_utc": "2025-11-17T21:30:04.522908+00:00",
+  "config": {
+    "DPI": 300,
+    "OUTPUT_FORMAT": "PNG",
+    "MAX_WORKERS": 8,
+    "BATCH_SIZE": 50,
+    "QUALITY_THRESHOLD": 0.95
+  },
+  "input_pdfs": 1,
+  "summary": {
+    "successful_files": 1,
+    "failed_files": 0,
+    "total_pages_converted": 1,
+    "errors": []
+  },
+  "files": [
+    {
+      "pdf": "/home/ubuntu/nim-dev/models/nemotron-parse-prod/data/tables/soa_1.pdf",
+      "output_base": "/home/ubuntu/nim-dev/models/nemotron-parse-prod/output_results/converted_images/soa_1",
+      "pdf2image_pages": 0,
+      "fitz_pages": 1
+    }
+  ],
+  "output_root": "/home/ubuntu/nim-dev/models/nemotron-parse-prod/output_results/converted_images"
+}
