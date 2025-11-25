@@ -1,0 +1,65 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_33_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:54:49.329616+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.0578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 33"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.0797,
+                    "xmax": 0.8207980570734669,
+                    "ymax": 0.1805
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "the preferred axis of the body patch (determined from the average response of body patch neurons to the 1224 stimuli). **c.** Left: fMRI response time course from the body patches to the four stimulus conditions in (**a**). Center: Mean normalized single-unit responses from neurons in body1 patch to the four stimulus conditions. The error band represents the SE across different neurons. Right: Mean local field potential (LFP) from body1 patch to the four stimulus conditions. The error band represents the SE across different recording sites."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.8953,
+                    "xmax": 0.6067681845780206,
+                    "ymax": 0.9047
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        }
+    ]
+}

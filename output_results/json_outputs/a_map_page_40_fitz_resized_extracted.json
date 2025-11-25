@@ -1,0 +1,119 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_40_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:55:05.436109+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14068536733454767,
+                    "ymin": 0.0477,
+                    "xmax": 0.8394093503339405,
+                    "ymax": 0.0594
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 40"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.2511523982999393,
+                    "ymin": 0.5367,
+                    "xmax": 0.833505768063145,
+                    "ymax": 0.7516
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**a,** Population similarity matrices in the three patches of the NML network (top), three patches of the body network (middle) and two patches of the stubby network (bottom) pooled across monkeys M1 and M2. An 88 \u00d7 88 matrix of correlation coefficients was computed from responses of cells in each patch to 88 stimuli (8 views \u00d7 top 11 preferred objects). **b,** Responses from three example cells recorded in NML3 (top), the body network (middle) and the stubby network (bottom) to 51 objects at 24 views. Four different views of the most preferred object are shown below each response matrix. **c,** Responses of neurons recorded from patches in the NML network (top), the body network (middle) and the stubby network (bottom) as a function of distance along the preferred axis. The abscissa is rescaled so that the range [-1,1] covers 95% of the stimuli. Half the stimulus trials were used to compute the preferred axis for each cell, and held-out data were used to plot the responses shown."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3058856102003643,
+                    "ymin": 0.9023,
+                    "xmax": 0.6087693989071039,
+                    "ymax": 0.9133
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Picture",
+                "bbox": {
+                    "xmin": 0.14368718882817244,
+                    "ymin": 0.0766,
+                    "xmax": 0.9419715846994536,
+                    "ymax": 0.5008
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {}
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.24424820886460233,
+                    "ymin": 0.5078,
+                    "xmax": 0.8247004250151792,
+                    "ymax": 0.5344
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Fig. 3: Each network contains a hierarchy of increasingly view-invariant nodes, and single cells in each node show ramp-shaped tuning.**"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.093,
+                    "xmax": 0.06934207650273225,
+                    "ymax": 0.8602
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript Author Manuscript Author Manuscript"
+            }
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_31_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:54:32.071687+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.0578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 31"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.0773,
+                    "xmax": 0.8345063752276867,
+                    "ymax": 0.2336
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "<tbc>stimuli from the four conditions used in <sup>21</sup>. Right: example stimuli (blue: small object-like, cyan: large object-like, red: landscape-like, magenta: cave-like). **d.** Left: gray dots depict 1224 stimuli projected onto object PC1-PC2 space; colored dots depict projection of stimuli from the four blocks of the curvature localizer used in <sup>11</sup>. Right: example stimuli from the four blocks of the curvature localizer (blue: real-world round shapes, cyan: computer- generated 3D sphere arrays, red: real-world rectilinear shapes, magenta: computer-generated 3D pyramid arrays). e. Images of English and Chinese words are projected onto object PC1- PC2 space (black diamonds), superimposed on the plot from Fig. 4b. They are grouped into a small region, consistent with their modular representation by the VWFA."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6067681845780206,
+                    "ymax": 0.9125
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.2258
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3094,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.432
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5227,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7359,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

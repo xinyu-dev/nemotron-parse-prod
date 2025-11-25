@@ -1,0 +1,84 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_28_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:54:26.149160+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.0586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 28"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.7312,
+                    "xmax": 0.6606008500303583,
+                    "ymax": 0.7422
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Extended Data Figure 8. Searching for substructure within patches.**"
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.7469,
+                    "xmax": 0.8267016393442623,
+                    "ymax": 0.8656
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**a.** Axial view of the Stubby2 patch, together with projections of three recording sites. **b.** Mean responses to 51 objects from neurons grouped by recording sites shown in (**a**) (same format as Fig. 2**a1**). **c.** Axial view of the Stubby3 patch, together with projections of two recording sites. **d.** Mean responses to 51 objects from neurons grouped by recording sites shown in (**c**). **e.** Projection of preferred axis onto PC1-PC space for neurons recorded from different sites within the Stubby2 patch. There is no clear separation between neurons from the three sites in PC1-PC2 space. The gray dots represent all other neurons across the four"
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6067681845780206,
+                    "ymax": 0.9125
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        }
+    ]
+}

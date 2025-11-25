@@ -1,0 +1,274 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_8_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:53:28.786907+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.0578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 8"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.0797,
+                    "xmax": 0.8041879781420764,
+                    "ymax": 0.1094
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "deep networks. One possible reason is that physical clustering may help to refine object representations through lateral inhibition and aid object identification in clutter<sup>28</sup>."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.1281,
+                    "xmax": 0.833505768063145,
+                    "ymax": 0.2453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Our results cast the face patch system in a new light. Previously, it was thought that the face system, with its striking clustering of face-selective cells, was a unique evolutionary consequence of the importance of face recognition to primate social behaviour. Here we show that the face system arises naturally from the statistical structure of object space. One prediction is that face-deprived animals should still show a network specialized for round objects (for example, clocks, apples), even if it is not specialized for faces per se. Selectivity for additional features may develop with face experience<sup>26</sup>."
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.2641,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.3992
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Our hypothesis that IT cortex is organized according to the first two dimensions of object space makes multiple new predictions. We have already confirmed several of these, including the existence of the stubby network (see Supplementary Information). Additional new predictions are that lesions in any part of IT should lead to agnosias in specific sectors of object space<sup>29</sup>, and that other brain regions that contain face patches may also harbour maps of object space<sup>30</sup>. Finally, it will be important to discover whether remaining unaccounted-for regions of IT can be explained within the same general framework of a map of object space."
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16119781420765025,
+                    "ymin": 0.4234,
+                    "xmax": 0.2374440801457195,
+                    "ymax": 0.4344
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## Methods"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.4508,
+                    "xmax": 0.8168956891317548,
+                    "ymax": 0.5305
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Five male rhesus macaques (_Macaca mulatta_) between 5 and 8 years old were used in this study. All procedures conformed to local and US National Institutes of Health guidelines, including the US National Institutes of Health Guide for Care and Use of Laboratory Animals. All experiments were performed with the approval of the Caltech Institutional Animal Care and Use Committee."
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.5516,
+                    "xmax": 0.811992714025501,
+                    "ymax": 0.5961
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "No statistical methods were used to predetermine sample size. The experiments were not randomized and investigators were not blinded to allocation during experiments and outcome assessment."
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16119781420765025,
+                    "ymin": 0.6195,
+                    "xmax": 0.26085828779599274,
+                    "ymax": 0.6297
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## Visual stimuli"
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.6422,
+                    "xmax": 0.8355069823922282,
+                    "ymax": 0.8492
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Stimuli for electrophysiology experiments--Three different stimulus sets were used. 1) A set of 51 objects from 6 different categories, each presented at 24 different views (Extended Data Fig. 2a, b). Except for face models, other 3D models were downloaded from https://www.3d66.com. Face 3D models were generated by Facegen (Singular Inversions) software using random parameters. The images at 24 views for each object were generated using 3dMax (Autodesk) software. Each image was presented for 250 ms interleaved with 150 ms of a grey screen. Each image was presented 4\u20138 times. 2) A set of line segments that varied along three dimensions: curvature, aspect ratio, and orientation (Extended Data Fig. 2c). Each image was presented for 150 ms interleaved with 150 ms of a grey screen. Each image was presented 6\u20138 times. 3) A set of object images consisting of 1,392 different images downloaded from www.fireepngs.com. We also included 201 face images from the FEI database (https://fei.edu.br/~cet/facedatabase.html). Thus there were 1,593 images in"
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6067681845780206,
+                    "ymax": 0.9133
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.2188
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3094,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.4313
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 12,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5227,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 13,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7281,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

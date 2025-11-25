@@ -1,0 +1,236 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_4_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:53:19.521943+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.0586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 4"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.0797,
+                    "xmax": 0.8325051608986035,
+                    "ymax": 0.3211
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Cells showed significant tuning to many of the 50 object dimensions (Pearson correlation P\n< 10<sup>-3</sup> between feature values and neural responses). On average, each cell was significantly\ntuned to seven dimensions. Notably, the preferred axis of each cell was stable to the precise\nimage set (Extended Data Fig. 5a). The 50D linear object space model could explain 44.7%\nvariance, or 53.3% of the explainable variance of NML neurons on average (Extended Data\nFig. 5b); this is significantly higher than a Gaussian model and similar to a quadratic model\n(Extended Data Fig. 5c, d). Consistent with the high explained variance by the linear model,\ncell tuning along the preferred axis in the 50D object space was ramp-shaped (Fig. 3c, top).\nSimilar ramp-shaped tuning has previously been reported for face-selective cells<sup>18</sup>. NML\nneurons also showed approximately flat tuning along orthogonal axes (Extended Data Fig.\n5e), another property that has been previously observed in face-selective cells<sup>18</sup>. Together,\nramp-shaped tuning along the preferred axis and flat tuning along orthogonal axes implies\nthat cells in the NML network are linearly projecting incoming objects, formatted as vectors\nin object space, onto specific preferred axes."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.3398,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.4547
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Overall, the organization and code of the NML network are strikingly similar to those of the\nface patch network. The NML network consists of connected patches, cells within the\nnetwork show a consistent pattern of selectivity, there is increasing view invariance along the\nnetwork, and finally, single cells in the network represent object identity through an axis\ncode. Thus there seems to be a clear structural parallel between the face network and the\nNML network. We therefore investigated whether additional networks in IT cortex follow\nthe same scheme."
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16029726775956285,
+                    "ymin": 0.4813,
+                    "xmax": 0.5521350333940497,
+                    "ymax": 0.4961
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "The body network follows the same scheme"
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.5094,
+                    "xmax": 0.8286027929568912,
+                    "ymax": 0.6445
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "We next recorded from the macaque body network, a set of regions adjacent to face patches\nthat respond more to animate compared to inanimate objects<sup>4</sup> (Fig. 2b), as well as the face\nnetwork (Fig. 2c). Population similarity matrices showed increased view invariance in the\nmost anterior body patch (Fig. 3a, b (middle), Extended Data Fig. 3e, f), consistent with a\nprevious study<sup>19</sup>. Cells in the body network also showed ramp-shaped tuning along their\npreferred axes (Fig. 3c (middle), Extended Data Fig. 5a) and flat tuning along orthogonal\naxes (Extended Data Fig. 5e). Thus the body network follows the same general anatomical\norganization and coding scheme as the NML and face networks."
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16029726775956285,
+                    "ymin": 0.668,
+                    "xmax": 0.5198154219793564,
+                    "ymax": 0.6828
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "A general rule governing IT organization"
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.6961,
+                    "xmax": 0.818896903460838,
+                    "ymax": 0.8664
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "The finding of three networks (NML, body and face) that all follow the same organization\nand coding scheme suggests that there might be a general principle that governs the\norganization of IT cortex. Recall that the first two axes of object space are roughly stubby\nversus spiky, and animate versus inanimate (Extended Data Fig. 4b). We noticed a\nremarkable relationship between these two axes and the selectivity of the NML, body, and\nface networks. Face patches prefer stubby animate objects; body patches prefer spiky,\nanimate objects; and NML patches prefer spiky objects regardless of animacy (Fig. 2a).\nThese observations made us wonder whether all of IT might be topographically organized\naccording to the first two dimensions of object space (Fig. 4a), in the same way that\nretinotopic cortex is organized according to polar angle and eccentricity."
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6067681845780206,
+                    "ymax": 0.9133
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Nature. Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.2188
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3094,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.4313
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5227,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7359,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

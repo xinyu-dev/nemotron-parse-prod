@@ -1,0 +1,176 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_24_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:54:04.998305+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.0578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 24"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.7461,
+                    "xmax": 0.8286027929568912,
+                    "ymax": 0.8648
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**a1.** The distribution of consistency of preferred axis for cells in the NML network (see Methods). **a2.** Same as (**a1**) for the body network. **a3.** Same as (**a1**) for the stubby network. (**b**) Different trials of responses to the stimuli were randomly split into two halves, and the average response across half of the trials was used to predict that of the other half. Percentage variances explained, after Spearman-Brown correction (mean = 87.8%), are plotted against that of the axis model (mean = 49.1%). Mean explainable variance for 29 cells was 55.9%. **c.** Percentage variances explained by a Gaussian model are plotted against"
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6067681845780206,
+                    "ymax": 0.9133
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Picture",
+                "bbox": {
+                    "xmin": 0.2960796599878567,
+                    "ymin": 0.0813,
+                    "xmax": 0.794382027929569,
+                    "ymax": 0.7133
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {}
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.7312,
+                    "xmax": 0.6429901639344262,
+                    "ymax": 0.7422
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Extended Data Figure 5. Neurons across IT perform axis coding.**"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06844153005464482,
+                    "ymax": 0.2188
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3016,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.432
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5141,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7273,
+                    "xmax": 0.06844153005464482,
+                    "ymax": 0.8586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

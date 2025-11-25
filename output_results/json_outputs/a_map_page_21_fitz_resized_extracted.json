@@ -1,0 +1,141 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_21_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:53:58.699983+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.0578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 21"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.0797,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.4281
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "distributions of view-invariant identity correlations for cells in the three patches of the NML network. Right: same as left, for cells in the three patches of the body network. For each cell, the view-invariant identity correlation was computed as the average across all pairs of views of the correlation between response vectors to the 51 objects at a pair of distinct views. The distribution of view-invariant identity correlations was significantly different between NML1 and NML2 (t-test two-tailed, p < 0.005, t(118) = 2.96), NML2 and NML3 (t-test two-tailed, p < 0.005, t( 169) = 2.9), Body1 and Body2 (t-test two-tailed, p < 0.0001, t(131) = 6.4), and Body2 and Body3 (t-test two-tailed, p < 0.05, t(126) = 2.04). * means p < 0.05, ** means p < 0.01. (f1) Time course of view-invariant object identity selectivity for the three patches in the NML network, computed using responses to 11 objects at 24 views and a 50-ms sliding response window (solid lines). As a control, time courses of correlations between responses to different objects across different views were also computed (dashed lines) (see Methods). f2. Same as (f1) for body network. (f3) Same as (f1) for stubby network. g. Top: Average responses to each image across all cells recorded from each patch are plotted against the logarithm of aspect ratio of the object in each image (see Methods). Pearson r values are indicated in each plot (all p < 10\u221210). The rightmost column shows results with cells from all three patches grouped together. Bottom: Same as top, with responses to each object averaged across 24 views, and associated aspect ratios also averaged. The rightmost column shows results with cells from all three patches grouped together."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6067681845780206,
+                    "ymax": 0.9125
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Nature. Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.2258
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3172,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.432
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5227,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7359,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

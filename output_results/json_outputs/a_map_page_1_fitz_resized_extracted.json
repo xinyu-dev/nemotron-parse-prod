@@ -1,0 +1,347 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_1_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:53:12.273692+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.22573697632058287,
+                    "ymin": 0.0273,
+                    "xmax": 0.640988949605343,
+                    "ymax": 0.0898
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**HHS Public Access**<br>\nAuthor manuscript<br>\n_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Title",
+                "bbox": {
+                    "xmin": 0.16119781420765025,
+                    "ymin": 0.1641,
+                    "xmax": 0.7358465088038859,
+                    "ymax": 0.182
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "# A map of object space in primate inferotemporal cortex"
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16029726775956285,
+                    "ymin": 0.307,
+                    "xmax": 0.23644347298117793,
+                    "ymax": 0.3187
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Abstract**"
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.18861445051608988,
+                    "ymin": 0.332,
+                    "xmax": 0.8080903460837887,
+                    "ymax": 0.5914
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "The inferotemporal (IT) cortex is responsible for object recognition, but it is unclear how the representation of visual objects is organized in this part of the brain. Areas that are selective for categories such as faces, bodies, and scenes have been found<sup>1-5</sup>, but large parts of IT cortex lack any known specialization, raising the question of what general principle governs IT organization. Here we used functional MRI, microstimulation, electrophysiology, and deep networks to investigate the organization of macaque IT cortex. We built a low-dimensional object space to describe general objects using a feed forward deep neural network trained on object classification<sup>6</sup>. Responses of IT cells to a large set of objects revealed that single IT cells project incoming objects onto specific axes of this space. Anatomically, cells were clustered into four networks according to the first two components of their preferred axes, forming a map of object space. This map was repeated across three hierarchical stages of increasing view invariance, and cells that comprised these maps collectively harboured sufficient coding capacity to approximately reconstruct objects. These results provide a unified picture of IT organization in which category- selective regions are part of a coarse map of object space whose dimensions can be extracted from a deep network."
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16029726775956285,
+                    "ymin": 0.6273,
+                    "xmax": 0.23354171220400727,
+                    "ymax": 0.6391
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Keywords**"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.18861445051608988,
+                    "ymin": 0.6492,
+                    "xmax": 0.7494547662416515,
+                    "ymax": 0.6758
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "inferotemporal cortex; deep networks; electrophysiology; fMRI; microstimulation; object recognition; functional organization; face patches"
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.7016,
+                    "xmax": 0.829603400121433,
+                    "ymax": 0.8016
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Object recognition, the process by which distinct visual forms are assigned distinct identity labels, lies at the heart of our ability to make sense of the visual world. It underlies many neural processes that operate on objects, including consciousness, attention, visual memory, decision making, and language. Befitting the central importance and computational complexity of object recognition, a large volume of the brain, IT cortex, is dedicated to solving this challenge<sup>7</sup>."
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Footnote",
+                "bbox": {
+                    "xmin": 0.16029726775956285,
+                    "ymin": 0.8633,
+                    "xmax": 0.818896903460838,
+                    "ymax": 0.907
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "<sup>\u2217</sup>Corresponding authors: Pinglei Bao, California Institute of Technology, Division of Biology, Pasadena, CA 91125, USA, pbao@caltech.edu; Doris Y. Tsao, California Institute of Technology, Division of Biology, MC 114-96 Pasadena, CA 91125, USA, Phone: 626-395-1702 Fax: 626-395-8826, dortsao@caltech.edu. <sup>\u2020</sup>Lead Contact"
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Picture",
+                "bbox": {
+                    "xmin": 0.10646460230722525,
+                    "ymin": 0.0227,
+                    "xmax": 0.19932094717668486,
+                    "ymax": 0.0953
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {}
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.16029726775956285,
+                    "ymin": 0.1,
+                    "xmax": 0.6370865816636309,
+                    "ymax": 0.1273
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Published in final edited form as:<br>\n_Nature._ 2020 July ; 583(7814): 103\u2013108. doi:10.1038/s41586-020-2350-5."
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.16029726775956285,
+                    "ymin": 0.2008,
+                    "xmax": 0.630282452944748,
+                    "ymax": 0.2156
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Pinglei Bao**<sup>1,2,\u2217</sup>**, Liang She**<sup>1</sup>**, Mason McGill**<sup>3</sup>**, Doris Y. Tsao**<sup>1,2,3,\u2217</sup>**,\u2020**"
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.16029726775956285,
+                    "ymin": 0.2219,
+                    "xmax": 0.7025262902246509,
+                    "ymax": 0.2352
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "<sup>1</sup>Division of Biology and Biological Engineering, Caltech, Pasadena CA 91125"
+            }
+        },
+        {
+            "extraction_id": 12,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.16029726775956285,
+                    "ymin": 0.2477,
+                    "xmax": 0.556037401335762,
+                    "ymax": 0.2602
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "<sup>2</sup>Howard Hughes Medical Institute, Pasadena, CA 91125"
+            }
+        },
+        {
+            "extraction_id": 13,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.16029726775956285,
+                    "ymin": 0.2727,
+                    "xmax": 0.6185753491196114,
+                    "ymax": 0.2859
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "<sup>3</sup>Computation and Neural Systems, Caltech, Pasadena CA 91125"
+            }
+        },
+        {
+            "extraction_id": 14,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.049830236794171215,
+                    "ymin": 0.0844,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.2141
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 15,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.049830236794171215,
+                    "ymin": 0.2977,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.4281
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 16,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.049830236794171215,
+                    "ymin": 0.5109,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6414
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 17,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.049830236794171215,
+                    "ymin": 0.7242,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8469
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

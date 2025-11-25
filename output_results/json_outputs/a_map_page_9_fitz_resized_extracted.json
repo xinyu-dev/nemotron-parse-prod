@@ -1,0 +1,198 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_9_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:53:31.232692+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.0578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 9"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.0797,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.1094
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "total (Extended Data Fig. 2d). Each image was presented for 150 ms interleaved with 150 ms of a grey screen. Each image was presented 4\u20138 times."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.1297,
+                    "xmax": 0.831604614450516,
+                    "ymax": 0.443
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Localizer for NML network\u2014Preferred and non-preferred objects were identified from electrophysiological responses recorded in the NML network of monkey M1 (Fig. 2a, top) by computing average, baseline-subtracted responses in the window [60 220] ms after stimulus onset (the baseline was computed from the window [\u201325 25] ms), averaging across all 24 views. The localizer contained three types of block. Block 1 contained images of the five most-preferred objects each at eight views (0\u00b0 rotation in the y\u2013z space, first row in Extended Data Fig. 2b). Block 2 contained images of the five least-preferred objects each at eight views. Block 3 contained images of five objects that belonged to the animal category each at eight views. A block containing phase-scrambled noise patterns preceded each stimulus block (using the images shown in blocks 1\u20133). To construct phase-scrambled images, we performed fast Fourier transform (FFT) on images, added a random phase to each frequency component, and then performed an inverse FFT. During the fMRI experiment, stimuli were presented in 24-s blocks at an interstimulus interval of 500 ms. In each scan, the order of the stimulus blocks was fixed as follows: preferred objects, non- preferred objects, animals, non-preferred objects, animals, preferred objects, animals, preferred objects, non-preferred objects. In addition, a block containing phase-scrambled noise was added at the end of each scan. Each scan lasted 456 s. Four monkeys were tested with this localizer, and 6\u20139 scans were performed for each monkey."
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.4633,
+                    "xmax": 0.8267016393442623,
+                    "ymax": 0.6
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Localizer for body network\u2014The localizer contained eight types of block, each consisting of 16 images taken from the following 8 categories: monkey bodies, animals, faces, fruits, hands, man-made objects, houses, and scenes. Stimuli were presented in 24-s blocks at an interstimulus interval of 500 ms. In each run, the eight blocks were each presented once, interleaved with phase-scrambled noise patterns (computed using images from the eight object blocks). A block containing phase-scrambled noise was added at the end of each scan. Each scan lasted 408 s. Four monkeys were tested with this localizer, and 6\u20139 scans were performed for each monkey."
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.6203,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.8445
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Localizer for stubby network\u2014The localizer contained four types of block, each consisting of 20 images taken from the four quadrants of object PC1\u2013PC2 space (Fig. 4a). The images were selected from an image set containing 19,300 background-free object images (http://www.freepngs.com). The images were passed through AlexNet, and projected to object PC1\u2013PC2 space built using the original 1,224 images (see \u2018Building an object space using a deep network\u2019). Then 20 different images were selected from each of the four quadrants of object PC1\u2013PC2 space, each with a polar angle roughly centred on the respective quadrant. The images were presented in 24-s blocks at an interstimulus interval of 500 ms. In each run, the four blocks were each presented twice, interleaved with phase- scrambled noise patterns (computed using images from the four object blocks). A block containing phase-scrambled noise was added at the end of each scan. Each scan lasted 408 s. Four monkeys were tested with this localizer, and 6\u201318 scans were performed for each monkey."
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6067681845780206,
+                    "ymax": 0.9133
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Nature. Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.2188
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3094,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.432
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5227,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7281,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

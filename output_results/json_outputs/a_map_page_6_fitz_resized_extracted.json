@@ -1,0 +1,255 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_6_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:53:24.227945+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.0578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 6"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.0797,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.1094
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "existence of a coarse map of object space that is repeated at least three times, with increasing view invariance at each stage."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.1281,
+                    "xmax": 0.8267016393442623,
+                    "ymax": 0.3516
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "These four networks, together with the disparity, scene, and colour networks, occupy about 53% of IT cortex, so additional networks may exist. Not all of the networks consisted of exactly three patches; for example, the stubby and NML networks each contained four patches (Fig. 4d, see Supplementary Information), and previous work has suggested that there are six face patches in each hemisphere, with some individual variability<sup>20</sup>. Thus, IT cortex may contain additional repetitions of die object space map. Furthermore, we emphasize that our study addresses IT organization at a coarse spatial scale and does not exclude the possibility of additional organization at finer spatial scales (Extended Data Fig. 8; see Supplementary Information). Recordings from multiple grid holes suggest that each patch spans 3\u20134 mm (Extended Data Fig. 8a\u2013d). Although we failed to find clustering at finer scales within a patch (Extended Data Fig. 8e, f) or clustering for any dimensions beyond the first two (Extended Data Fig. 8g, h), it is possible that mapping techniques with higher spatial resolution may reveal additional substructure within patches."
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.3703,
+                    "xmax": 0.831604614450516,
+                    "ymax": 0.4703
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "If the first two dimensions of object space derived from a deep network are indeed meaningful in terms of brain representation, we should be able to design novel stimuli to identify the four networks. To this end, we generated three new image sets (silhouettes, fake objects, and deep dream images) with very different properties from those of the original image set of Fig. 4a. In each case, fMRI revealed four networks similar to those in Fig. 4c (Extended Data Fig. 6c\u2013e)."
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16119781420765025,
+                    "ymin": 0.4938,
+                    "xmax": 0.4719863995142684,
+                    "ymax": 0.5086
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## Explaining previous accounts of IT"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.5219,
+                    "xmax": 0.8236998178506376,
+                    "ymax": 0.693
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "The principle that IT cortex is organized according to the first two axes of object space provides a unified explanation for many previous observations concerning the functional organization of IT, including not only the existence of facei and body areas3, but also gradients for representing animate versus inanimate and small versus large objects<sup>14</sup> (Extended Data Fig. 9a, b), a gradient for representing open versus closed topologies<sup>21</sup> (Extended Data Fig. 9c), the curvature network11 (Extended Data Fig. 9d), and the visual word form area<sup>22</sup> (Extended Data Fig. 9e). Furthermore, within category-selective regions, the object space model explains activity better than the semantic category hypothesis<sup>23</sup> (Extended Data Fig. 10). Overall, these results demonstrate the large explanatory power of the object space model."
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16119781420765025,
+                    "ymin": 0.7164,
+                    "xmax": 0.44166800242865817,
+                    "ymax": 0.7312
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## Reconstructing general objects"
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.7438,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.8445
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "We next investigated the richness of the feature space represented by cells in the four networks that comprise the map of object space. To quantify the object information available in the map of object space formed by the four networks, we attempted to decode object identity using the responses of cells from these networks. We used leave-one-object-out cross-validation to learn the linear transform that maps responses to features (Extended Data Fig. 11a, b). The explained variance for each dimension showed that many dimensions are"
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6077687917425623,
+                    "ymax": 0.9133
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.2188
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3094,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.4313
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5227,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 12,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7359,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

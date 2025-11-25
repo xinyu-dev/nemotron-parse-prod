@@ -1,0 +1,350 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_34_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:54:52.252709+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.0578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 34"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.0797,
+                    "xmax": 0.8306040072859745,
+                    "ymax": 0.5016
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**a.** Schematic illustrating the decoding model. To construct and test the model, we used responses of m recorded cells to n images. Population responses to images from all but one object were used to determine the transformation from responses to feature values by linear regression, and then the feature values of the remaining object were predicted (for each of 24 views). **b.** Model predictions are plotted against actual feature values for the first PC of object space. **c.** Percentage explained variances for all 50 dimensions using linear regression based on responses of four different neural populations: 215 NML cells (yellow); 190 body cells (green); 67 stubby cells (magenta); 482 combined cells (black). **d.** Decoding accuracy as a function of number of object images randomly drawn from the stimulus set for the same four neural populations as in (**c**). Dashed line indicates chance performance. **e.** Decoding accuracy for 40 images plotted against different numbers of cells randomly drawn from same four populations as (**c**). **f.** Decoding accuracy for 40 images plotted as a function of the numbers of PCs used to parametrize object images. **g.** Example reconstructed images from the three groups defined in (**h**) are shown. In each pair, the original image is shown on the left, and image reconstructed using neural data is shown on the right. **h.** The distribution of normalized distances between predicted and reconstructed feature vectors. The normalized distance takes account of the fact that the object images used for reconstruction did not include any of the object images shown to the monkey, setting a limit on how good the reconstruction can be (see Methods). A normalized distance of 1 means that the reconstruction has found the best solution possible. Images were sorted into three groups based on the normalized distance. **i.** Distribution of specialization indices SIij across objects for the NML (left), body (center) and stubby (right) networks (see Supplementary Information). Example objects for each network with SIij \u223c1 are shown. Red bars: objects with SIij significantly greater than 0 (t-test two-tailed, p<0.01)."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16119781420765025,
+                    "ymin": 0.5242,
+                    "xmax": 0.3723259259259259,
+                    "ymax": 0.5391
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## Supplementary Material"
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.5523,
+                    "xmax": 0.64789313904068,
+                    "ymax": 0.5633
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Refer to Web version on PubMed Central for supplementary material."
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16119781420765025,
+                    "ymin": 0.5867,
+                    "xmax": 0.26085828779599274,
+                    "ymax": 0.5984
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## References"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.6141,
+                    "xmax": 0.8168956891317548,
+                    "ymax": 0.6516
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "1. Kanwisher N, McDermott J & Chun MM The fusiform face area: a module in human extrastriate cortex specialized for face perception. Journal of neuroscience 17, 4302-4311 (1997). [PubMed: 9151747]"
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.6578,
+                    "xmax": 0.815895081967213,
+                    "ymax": 0.682
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "2. Tsao DY, Freiwald WA, Knutsen TA, Mandeville JB & Tootell RB Faces and objects in macaque cerebral cortex. Nature neuroscience 6, 989 (2003). [PubMed: 12925854]"
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.6883,
+                    "xmax": 0.8276021857923497,
+                    "ymax": 0.7125
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "3. Downing PE, Jiang Y, Shuman M & Kanwisher N A cortical area selective for visual processing of the human body. Science 293, 2470-2473 (2001). [PubMed: 11577239]"
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.7188,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.743
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "4. Popivanov ID, Jastorff J, Vanduffel W & Vogels R Heterogeneous single-unit selectivity in an fMRI- defined body-selective patch. Journal of Neuroscience 34, 95-111 (2014). [PubMed: 24381271]"
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.7492,
+                    "xmax": 0.7953826350941106,
+                    "ymax": 0.7734
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "5. Kornblith S, Cheng X, Ohayon S & Tsao DY A network for scene processing in the macaque temporal lobe. Neuron 79, 766-781 (2013). [PubMed: 23891401]"
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.7797,
+                    "xmax": 0.8090909532483302,
+                    "ymax": 0.8008
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "6. Krizhevsky A, Sutskever I & Hinton GE in Advances in neural information processing systems. 1097-1105."
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.8094,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.8344
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "7. Gross CG, Rocha-Miranda C. d. & Bender DB Visual properties of neurons in inferotemporal cortex of the macaque. Journal of neurophysiology 35, 96-111 (1972). [PubMed: 4621506]"
+            }
+        },
+        {
+            "extraction_id": 12,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.8398,
+                    "xmax": 0.8041879781420764,
+                    "ymax": 0.8641
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "8. Lafer-Sousa R & Conway BR Parallel, multi-stage processing of colors, faces and shapes in macaque inferior temporal cortex. Nature neuroscience 16, 1870 (2013). [PubMed: 24141314]"
+            }
+        },
+        {
+            "extraction_id": 13,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6067681845780206,
+                    "ymax": 0.9133
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 14,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.2188
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 15,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3094,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.432
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 16,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5227,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 17,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7281,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

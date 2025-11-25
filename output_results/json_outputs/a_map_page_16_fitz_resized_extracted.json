@@ -1,0 +1,255 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_16_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:53:48.591360+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.0578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 16"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.0797,
+                    "xmax": 0.8355069823922282,
+                    "ymax": 0.1625
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_B(k_) is the between-cluster variation, _w(k_) is the within-cluster variation, _n_ is the number of neurons, and _k_ is the cluster number. The larger the value of CH, the better the cluster model is. To check whether clusters exist beyond the first two PCs, _k_-means analysis was performed by defining the distance between a pair of neurons as the correlation in preferred axes in 48 dimensions after removing the first two PCs in the original 50D object space."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.12217413479052823,
+                    "ymin": 0.1828,
+                    "xmax": 0.29808087431693986,
+                    "ymax": 0.1953
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## Decoding analysis"
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.2055,
+                    "xmax": 0.833505768063145,
+                    "ymax": 0.3781
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "We found that cells in each IT network were performing linear projection onto specific preferred axes (Fig. 3 c, Extended Data Fig. 5a, e) and could be well modelled by the equation \\(\\mathbf{R}=\\mathbf{c}\\cdot\\mathbf{f}+\\mathbf{c}_0\\) where **R** is the vector of responses of different neurons, **c** is the matrix of weighting coefficients for different neurons, **f** is the vector of feature values in the object space, and **c**<sub>0</sub> is the offset vector. This suggests that by simply inverting this equation, we should be able to decode the vector of feature values in the object space from the IT response vector: \\(\\mathbf{f}=\\mathbf{R}\\cdot\\mathbf{c}^{^\\prime}+\\mathbf{c}_0^{^\\prime}\\). We first used responses to all but one of the objects (1,224 \u2013 24 = 1,200 images) to fit \\(\\mathbf{c}^{^\\prime}\\) and \\(\\mathbf{c}_0^{^\\prime}\\). Then the linear model was applied to responses to the remaining object for each of the 24 views to compute the predicted feature vector (Fig. 5, Extended Data Fig. 11)."
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.3961,
+                    "xmax": 0.8355069823922282,
+                    "ymax": 0.5148
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "To quantify overall decoding accuracy (Extended Data Fig. 11d\u2013f), we randomly selected a subset of _N_ object images from the set of 1,224 images and compared their actual object feature vectors to the reconstructed feature vector for one image (\u2018target\u2019) in the set of 1,224 using Euclidean distance. If the object feature vector with the smallest distance to the reconstructed object feature vector portrays the actual target, the decoding is considered correct. We repeated the procedure 100 times for each of the 1,224 object images to estimate decoding accuracy."
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.5352,
+                    "xmax": 0.8306040072859745,
+                    "ymax": 0.7063
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Object reconstruction--**To reconstruct objects from neural activity (Fig. 5), we used a pre-trained GAN<sub>24</sub>. For each image, a 50D object feature vector was reconstructed from neural activity elicited by that image; then the resulting 50D feature vector was transformed back into an fc6 layer pattern using the Moore\u2013Penrose pseudoinverse. Finally, we passed this fc6 response pattern to the generative network to generate reconstructed images. Since the generative network cannot perfectly reconstruct images from AlexNet fc6 layer responses, for comparison we also reconstructed each image using (1) its original fc6 response pattern and (2) the original fc6 response pattern projected onto the 50D object space; the latter constitutes the best possible reconstruction. We computed a \u2018normalized distance\u2019 to quantify the reconstruction accuracy for each object:"
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.38893600485731633,
+                    "ymin": 0.7234,
+                    "xmax": 0.7025262902246509,
+                    "ymax": 0.7547
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(\\text{Normalized distance}=\\frac{|fc6_\\text{recon}-fc6_\\text{original}|}{|fc6_\\text{best possible recon}-fc6_\\text{original}|}\\)"
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.7875,
+                    "xmax": 0.8217986642380085,
+                    "ymax": 0.8359
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Where **fc6**recon is the fc6 response pattern to the reconstruction obtained using neural data, **fc6**original is the fc6 response pattern to the original image shown to the monkey and _fc6_best possible recon is the fc6 response pattern to the best possible reconstruction."
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6077687917425623,
+                    "ymax": 0.9125
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.2188
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3094,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.432
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5227,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 12,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7281,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

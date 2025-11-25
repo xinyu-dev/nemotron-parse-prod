@@ -1,0 +1,293 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_15_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:53:46.029212+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.0578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 15"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.0797,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.1594
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "iteration, the whole image set (1,224 images) was randomly split into two subsets of 612 images, and a preferred axis was calculated using the responses to each subset. Then the Pearson correlation (_r_) was calculated between the two. This was repeated 100 times, and the consistency of preferred axis for the cell was defined as the average _r_ value across 100 iterations."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.1828,
+                    "xmax": 0.8139939283545841,
+                    "ymax": 0.2305
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Quantifying explained variance along an object dimension--**In Extended Data Fig. 11b, c, the explained variance _R_<sup>2</sup> was determined by the difference between the reconstructed feature value \\(y_i^{^\\prime}\\) and the real object feature value \\(y_i^{^\\prime}\\):"
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.4768893746205222,
+                    "ymin": 0.2516,
+                    "xmax": 0.6155735276259866,
+                    "ymax": 0.2992
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(R^2=1-\\frac{\\sum_1^{1224}(y_i-y_i^{^\\prime})^2}{\\sum_1^{1224}(y_i-y_i^{^\\prime})^2}\\)"
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.3359,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.525
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Quantifying explained variance in single neuron firing rate and model comparison--**In Extended Data Fig. 5b-d, to compute explained variance we first fit responses to a set of 1,593 objects (Extended Data Fig. 2d) using the axis model and then tested it on responses to a different set of 100 objects. To obtain high signal quality, the 100 objects were repeated 15-30 times. In Extended Data Fig. 5c, d, we compared three different models: (1) the axis model, which assumed the 50D features are combined linearly; (2) a Gaussian model, defined as \\(R=ae^{(-(x-x0)^2/\\sigma^2)}\\); and (3) a quadratic model, defined as _R_=_a_(**x**-**x**<sub>0</sub>)<sup>2</sup>+_b_(**x**-**x**<sub>0</sub>)+_c_. The percentage of explainable variance in responses to 100 objects explained by each model was used to quantify the quality of fit. In Extended Data Fig. 5b, for each cell the explained variance _R_<sup>2</sup> was determined by the difference between the predicted responses \\(r_i^{^\\prime}\\) and real observed responses to 100 test images _r<sub>i</sub>_:"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.5469,
+                    "xmax": 0.8257010321797208,
+                    "ymax": 0.6117
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "For calculating the upper bound of explained variance (_y_-axis values in Extended Data Fig. 5b), different trials of responses to the stimuli were randomly split into two halves. The Pearson correlation (_r_) between the average responses from two half-splits across images was calculated and corrected using die Spearman\u2013Brown correction:"
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.5198154219793564,
+                    "ymin": 0.6297,
+                    "xmax": 0.5716468731026109,
+                    "ymax": 0.6484
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(r^{^\\prime}=\\frac{2r}{1+r}\\)"
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.6797,
+                    "xmax": 0.7436512446873103,
+                    "ymax": 0.6945
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "The square of \\(r^{^\\prime}\\) was considered as the upper bound of the explained variance."
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.7156,
+                    "xmax": 0.8355069823922282,
+                    "ymax": 0.8156
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**_k-means cluster analysis--_**To determine whether neurons in the same network are grouped as a cluster based on their preferred axes, we applied _k_-means analysis on the entire population of neurons recorded in the four networks (Extended Data Fig. 8g, h). The distance between each pair of neurons was calculated as the Pearson\u2019s correlation between preferred axes of the neurons in the 50D space. To determine the optimal number of clusters, we calculated the Calinski\u2013Harabasz value (CH) for different numbers of clusters (_k_)."
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.483693503339405,
+                    "ymin": 0.832,
+                    "xmax": 0.6077687917425623,
+                    "ymax": 0.8547
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(CH(k)=\\frac{B(k)\\times(n-k)}{w(k)\\times(k-1)}\\)"
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6077687917425623,
+                    "ymax": 0.9125
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.2258
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 12,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3094,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.4391
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 13,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5227,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 14,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7359,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

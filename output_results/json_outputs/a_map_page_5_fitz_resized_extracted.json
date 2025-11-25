@@ -1,0 +1,236 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_5_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:53:21.941318+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.0586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 5"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.0797,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.1977
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "As a first step to test this hypothesis, we projected all the stimuli that we showed to the monkey onto the first two dimensions of object space, and marked the top 100 images for the NML, body, and face networks (Fig. 4b; orange, green, and blue dots). They approximately spanned three quadrants of the space. If IT cortex is indeed laid out according to the first two dimensions of object space, we predicted there should be a fourth network representing objects that project strongly onto the remaining unrepresented quadrant\u2014 namely stubby, inanimate objects without protrusions (for example, a USB stick or radio)."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.2156,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.4219
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "To test this prediction, we first ran an fMRI experiment with four blocks, corresponding to the four quadrants of object space (Fig. 4a). Comparison of stubby versus other blocks revealed a network that contained multiple patches selective for stubby objects (Fig. 4c). Electrophysiology targeted to two of these patches revealed cells that were strongly selective for stubby objects (Fig. 2d), whose preferred axes occupied the previously unrepresented quadrant (Fig. 4b, magenta dots). The general properties of the stubby network were very similar to those of the NML, face, and body networks. Population similarity matrices showed increased view invariance in the most anterior stubby patch (Fig. 3a, b (bottom), Extended Data Fig. 3f). Cells in the stubby network also showed ramp-shaped timing along their preferred axes (Fig. 3c (bottom), Extended Data Fig. 5a) and flat timing along orthogonal axes (Extended Data Fig. 5e). Thus, the hypothesis that IT is organized according to the first two dimensions of object space revealed a second new shape network."
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.4406,
+                    "xmax": 0.8355069823922282,
+                    "ymax": 0.5766
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "One potential concern is that the 51 objects at 24 views that we used to assess the selectivity of cells in each network were too sparse and may not have allowed identification of the true selectivity of cells. We presented 1,593 completely different objects to a subset of cells in the NML, body, and stubby networks and found responses consistent with those to our original stimulus set (Extended Data Fig. 6a, b). In particular, preferred axes measured using the new stimuli segregated into three different regions of object PC1\u2013PC2 space (Extended Data Fig. 6a), and the preferred stimuli of each network were qualitatively similar to those identified using the original stimuli (Extended Data Fig. 6b)."
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.5945,
+                    "xmax": 0.829603400121433,
+                    "ymax": 0.6773
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "It might seem suspiciously serendipitous for IT to be organized according to the first two dimensions of an object space computed using a specific image set with a specific deep convolutional network. In fact, these first two axes do not depend strongly on the particular image set (Extended Data Fig. 4d\u2013f) or network (Extended Data Fig. 4g\u2013j) used to compute them (see Supplementary Information)."
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16119781420765025,
+                    "ymin": 0.7008,
+                    "xmax": 0.35961821493624774,
+                    "ymax": 0.7156
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "A map of object space"
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.7289,
+                    "xmax": 0.8306040072859745,
+                    "ymax": 0.8641
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "What is the anatomical layout of the face, body, NML, and stubby networks? An overlay of the four networks onto coronal slices and a cortical flat map revealed a remarkably ordered progression (Fig. 4c, d; see Extended Data Fig. 7 for response time courses from each patch). There is a clear sequence from body to face to stubby to NML in both hemispheres that is repeated in the same order in posterior, middle, and anterior IT. This pattern was consistent across animals (Fig. 4c, d) and confirmed by quantitative analysis of the linear fit between patch-ordered label and cortical location of patch peak (P < 10\u221218 for posterior, middle, and anterior IT, Fig. 4e\u2013g). This strikingly regular progression suggests the"
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6067681845780206,
+                    "ymax": 0.9133
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Nature. Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.218
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3094,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.4313
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5227,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7281,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

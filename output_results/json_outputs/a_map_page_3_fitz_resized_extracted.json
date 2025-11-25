@@ -1,0 +1,236 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_3_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:53:17.073682+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.0586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 3"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.0797,
+                    "xmax": 0.8355069823922282,
+                    "ymax": 0.1266
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "revealed a response pattern that was highly consistent with that in monkey M1 (Fig. 2a) (Pearson correlation of the mean responses to each object between monkeys M1 and M2, r = 0.89, P < 10\u221216). This justifies referring to an \u2018NML network\u2019 across animals."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.1453,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.2984
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "In the face patch network, neurons in posterior patches are view-specific whereas those in the most anterior patch are view-invariant16. We found a similar difference between the three NML patches in terms of their view invariance. Significantly more cells in NML3 were view-invariant than in NML1 (two-tailed t-test; t(137) = 5.10, P < 10\u22125; Extended Data Fig. 3e). Population similarity matrices to objects at different views also showed an increase in view invariance going anteriorly, with emergence of parallel diagonal stripes in the NML3 similarity matrix (Fig. 3a (top), Extended Data Fig. 3f). Notably, many cells showed view invariance to objects that the monkey had not experienced, such as an aeroplane (Fig. 3b (top))."
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.3172,
+                    "xmax": 0.8286027929568912,
+                    "ymax": 0.4523
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Next, we investigated what is being coded by cells in this network. Scrutinizing the most- and least-preferred objects (Fig. 2a (bottom)), we noticed that all of the preferred objects contained thin protrusions, whereas the non-preferred objects were round. This suggested that one feature NMF neurons might be selective for is high aspect ratio. We confirmed this using both responses to the original object image set (Extended Data Fig. 3g, see Methods) as well as a simplified stimulus set consisting of a line segment independently varied in aspect ratio, curvature, and orientation (Fig. 2f, Extended Data Fig. 2c). Thus a common preferred feature of cells in the NMF network is high aspect ratio."
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16119781420765025,
+                    "ymin": 0.4766,
+                    "xmax": 0.5081083181542199,
+                    "ymax": 0.4914
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## NML cells encode axes of object space"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.5039,
+                    "xmax": 0.8325051608986035,
+                    "ymax": 0.6219
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "We next attempted to identify the relevant shape dimensions for the NMF network in a systematic way that does not depend on subjective visual inspection. Until recently, this was difficult because of the lack of a computational scheme to parametrize arbitrary objects. Deep networks trained to classify objects provide a powerful solution to this problem<sup>17</sup>. They allow parametrization of arbitrary objects through computation of a few thousand numbers, the unit activations in a deep layer. To make the parametrization even more compact, one can perform principal components analysis (PCA) on these unit activations."
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.6398,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.8469
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "We built an object space by passing the stimulus set we presented to the monkey (Extended Data Fig. 2a, b) through AlexNet, a deep network trained on object classification6, and then performing PCA on the responses of units in layer fc6 of this network (Extended Data Fig. 4a). The first principal component (PC) corresponds roughly to things with protrusions (spiky) versus those without (stubby) (Extended Data Fig. 4b). The second PC corresponds roughly to animate versus inanimate (note that we use \u2018animate\u2019 and \u2018inanimate\u2019 as shape descriptors without any semantic connotation). We determined that 50 object dimensions could explain 85% variance in the AlexNet fc6 response (Extended Data Fig. 4c) and thus used 50 dimensions in the remaining analyses. We then analysed the responses of cells in the NML network by computing a \u2018preferred axis\u2019 for each cell through linear regression, namely, the coefficients c in the equation \\(R=c\\cdot f+\\unknown_0\\), where _R_ is the response of the cell, **f** is the 50D object feature vector, and \\(\\unknown_0\\) is a constant offset (see Methods)."
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6067681845780206,
+                    "ymax": 0.9125
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.2188
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3094,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.4313
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5227,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7281,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

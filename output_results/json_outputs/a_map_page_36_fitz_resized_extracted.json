@@ -1,0 +1,293 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_36_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:54:58.196531+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.0578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 36"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.0789,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.1031
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "33. Ponce CR et al. Evolving images for visual neurons using a deep generative network reveals coding principles and neuronal preferences. Cell 177, 999\u20131009. e1010 (2019). [PubMed: 31051108]"
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.1094,
+                    "xmax": 0.8149945355191257,
+                    "ymax": 0.1469
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "34. Ohayon S, Grimaldi P, Schweers N & Tsao DY Saccade modulation by optical and electrical stimulation in the macaque frontal eye field. Journal of Neuroscience 33, 16684\u201316697 (2013). [PubMed: 24133271]"
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.1531,
+                    "xmax": 0.8051885853066181,
+                    "ymax": 0.1773
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "35. Dale AM, Fischl B & Sereno MI Cortical surface-based analysis. I. Segmentation and surface reconstruction. Neuroimage 9, doi:10.1006/nimg.1998.0395 (1999)."
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.1836,
+                    "xmax": 0.7836755312689739,
+                    "ymax": 0.2078
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "36. Reuter M & Fischl B Avoiding asymmetry-induced bias in longitudinal image processing. Neuroimage 57, 19\u201321 (2011). [PubMed: 21376812]"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.2141,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.2375
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "37. Reveley C et al. Three-dimensional digital template atlas of the macaque brain. Cerebral Cortex 27, 4463\u20134477 (2016)."
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.2445,
+                    "xmax": 0.8197974499089253,
+                    "ymax": 0.268
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "38. Ohayon S & Tsao DY MR-guided stereotactic navigation. Journal of neuroscience methods 204, 389\u2013397 (2012). [PubMed: 22192950]"
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.2742,
+                    "xmax": 0.8257010321797208,
+                    "ymax": 0.2984
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "39. Saleem KS & Logothetis NK A combined MRI and histology atlas of the rhesus monkey brain in stereotaxic coordinates. (Academic Press, 2012)."
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.3047,
+                    "xmax": 0.8325051608986035,
+                    "ymax": 0.3289
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "40. Konkle T & Caramazza A Tripartite organization of the ventral stream by animacy and object size. Journal of Neuroscience 33, 10235\u201310242 (2013). [PubMed: 23785139]"
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.3352,
+                    "xmax": 0.8345063752276867,
+                    "ymax": 0.3727
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "41. Long B, Yu C-P & Konkle T Mid-level visual features underlie the high-level categorical organization of the ventral stream. Proceedings of the National Academy of Sciences 115, E9015\u2013 E9024 (2018)."
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6077687917425623,
+                    "ymax": 0.9125
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.2258
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 12,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3172,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.4398
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 13,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5305,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6531
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 14,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7438,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8664
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

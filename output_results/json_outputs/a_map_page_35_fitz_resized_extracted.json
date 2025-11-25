@@ -1,0 +1,578 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_35_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:54:55.984218+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.0578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 35"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.0789,
+                    "xmax": 0.8149945355191257,
+                    "ymax": 0.1164
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "9. Verhoef B-E, Bohon KS & Conway BR Functional architecture for disparity in macaque inferior\ntemporal cortex and its relationship to the architecture for faces, color, scenes, and visual field.\nJournal of Neuroscience 35, 6952\u20136968 (2015). [PubMed: 25926470]"
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.1227,
+                    "xmax": 0.7895791135397693,
+                    "ymax": 0.1469
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "10. Janssen P, Vogels R & Urban GA Selectivity for 3D shape that reveals distinct areas within\nmacaque inferior temporal cortex. Science 288, 2054\u20132056 (2000). [PubMed: 10856221]"
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.1531,
+                    "xmax": 0.8149945355191257,
+                    "ymax": 0.1773
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "11. Yue X, Pourladian IS, Tootell RB & Ungerleider LG Curvature-processing network in macaque\nvisual cortex. Proceedings of the National Academy of Sciences 111, E3467\u2013E3475 (2014)."
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.1836,
+                    "xmax": 0.768066059502125,
+                    "ymax": 0.207
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "12. Fujita I, Tanaka K, Ito M & Cheng K Columns for visual features of objects in monkey\ninferotemporal cortex. Nature 360, 343 (1992). [PubMed: 1448150]"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.2141,
+                    "xmax": 0.8051885853066181,
+                    "ymax": 0.2383
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "13. Levy I, Hasson U, Avidan G, Hendler T & Malach R Center-periphery organization of human\nobject areas. Nat. Neurosci 4, doi:10.1038/87490 (2001)."
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.2445,
+                    "xmax": 0.833505768063145,
+                    "ymax": 0.268
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "14. Konkle T & Oliva A A real-world size organization of object responses in occipitotemporal cortex.\nNeuron 74, 1114\u20131124 (2012). [PubMed: 22726840]"
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.2742,
+                    "xmax": 0.8197974499089253,
+                    "ymax": 0.2984
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "15. Moeller S, Freiwald WA & Tsao DY Patches with links: a unified system for processing faces in\nthe macaque temporal lobe. Science 320, doi:10.1126/science.1157436 (2008)."
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.3047,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.3289
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "16. Freiwald WA & Tsao DY Functional compartmentalization and viewpoint generalization within the\nmacaque face-processing system. Science 330, 845\u2013851 (2010). [PubMed: 21051642]"
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.3352,
+                    "xmax": 0.8168956891317548,
+                    "ymax": 0.3594
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "17. Yamins DL et al. Performance-optimized hierarchical models predict neural responses in higher\nvisual cortex. Proceedings of the National Academy of Sciences 111, 8619\u20138624 (2014)."
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.3656,
+                    "xmax": 0.8325051608986035,
+                    "ymax": 0.3891
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "18. Chang L & Tsao DY The code for facial identity in the primate brain. Cell 169, 1013\u20131028. e1014\n(2017). [PubMed: 28575666]"
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.3961,
+                    "xmax": 0.8355069823922282,
+                    "ymax": 0.4195
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "19. Kumar S, Popivanov ID & Vogels R Transformation of visual representations across ventral stream\nbody-selective patches. Cereb. Cortex 29, doi:10.1093/cercor/bhx320 (2019)."
+            }
+        },
+        {
+            "extraction_id": 12,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.4258,
+                    "xmax": 0.8061891924711596,
+                    "ymax": 0.45
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "20. Tsao DY, Moeller S & Freiwald WA Comparing face patch systems in macaques and humans.\nProceedings of the National Academy of Sciences 105, 19514\u201319519 (2008)."
+            }
+        },
+        {
+            "extraction_id": 13,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.4562,
+                    "xmax": 0.8100915604128719,
+                    "ymax": 0.4805
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "21. Vaziri S, Carlson ET, Wang Z & Connor CE A channel for 3D environmental shape in anterior\ninferotemporal cortex. Neuron 84, 55\u201362 (2014). [PubMed: 25242216]"
+            }
+        },
+        {
+            "extraction_id": 14,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.4867,
+                    "xmax": 0.8139939283545841,
+                    "ymax": 0.5109
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "22. McCandliss BD, Cohen L & Dehaene S The visual word form area: expertise for reading in the\nfusiform gyrus. Trends in cognitive sciences 7, 293\u2013299 (2003). [PubMed: 12860187]"
+            }
+        },
+        {
+            "extraction_id": 15,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.5172,
+                    "xmax": 0.82279927140255,
+                    "ymax": 0.5547
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "23. Baldassi C et al. Shape similarity, better than semantic membership, accounts for the structure of\nvisual object representations in a population of monkey inferotemporal neurons. PLoS\ncomputational biology 9, e1003167 (2013). [PubMed: 23950700]"
+            }
+        },
+        {
+            "extraction_id": 16,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.5609,
+                    "xmax": 0.7846761384335155,
+                    "ymax": 0.5711
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "24. Dosovitskiy A & Brox T in Advances in neural information processing systems. 658\u2013666."
+            }
+        },
+        {
+            "extraction_id": 17,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.5773,
+                    "xmax": 0.8168956891317548,
+                    "ymax": 0.6148
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "25. Aparicio PL, Issa EB & DiCarlo JJ Neurophysiological organization of the middle face patch in\nmacaque inferior temporal cortex. Journal of Neuroscience 36, 12729\u201312745 (2016). [PubMed:\n27810930]"
+            }
+        },
+        {
+            "extraction_id": 18,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.6219,
+                    "xmax": 0.8100915604128719,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "26. Arcaro MJ, Schade PF, Vincent JL, Ponce CR & Livingstone MS Seeing faces is necessary for\nface-domain formation. Nature neuroscience 20, 1404 (2017). [PubMed: 28869581]"
+            }
+        },
+        {
+            "extraction_id": 19,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.6523,
+                    "xmax": 0.7807737704918033,
+                    "ymax": 0.6766
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "27. Zhuang C, Zhai AL & Yamins D in Proceedings of the IEEE International Conference on\nComputer Vision. 6002\u20136012."
+            }
+        },
+        {
+            "extraction_id": 20,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.682,
+                    "xmax": 0.8276021857923497,
+                    "ymax": 0.7063
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "28. Bao P & Tsao DY Representation of multiple objects in macaque category-selective areas. Nature\ncommunications 9, 1774 (2018)."
+            }
+        },
+        {
+            "extraction_id": 21,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.7125,
+                    "xmax": 0.8207980570734669,
+                    "ymax": 0.75
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "29. Rajalingham R & DiCarlo JJ Reversible inactivation of different millimeter-scale regions of\nprime IT results in different patterns of core object recognition deficits. Neuron 102, 493\u2013505.\ne495 (2019). [PubMed: 30878289]"
+            }
+        },
+        {
+            "extraction_id": 22,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.757,
+                    "xmax": 0.8286027929568912,
+                    "ymax": 0.7945
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "30. Haile TM, Bohon KS, Romero MC & Conway BR Visual stimulus-driven functional organization\nof macaque prefrontal cortex. Neuroimage 188, 427\u2013444, doi:10.1016/j.neuroimage.2018.n.060\n(2019). [PubMed: 30521952]"
+            }
+        },
+        {
+            "extraction_id": 23,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.8008,
+                    "xmax": 0.8070897389192471,
+                    "ymax": 0.825
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "31. Tsao DY, Freiwald WA, Tootell RB & Livingstone MS A cortical region consisting entirely of\nface-selective cells. Science 311, 670\u2013674 (2006). [PubMed: 16456083]"
+            }
+        },
+        {
+            "extraction_id": 24,
+            "metadata": {
+                "source_page": 0,
+                "type": "Bibliography",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.8313,
+                    "xmax": 0.7983844565877353,
+                    "ymax": 0.8547
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "32. Chang L, Bao P & Tsao DY The representation of colored objects in macaque color patches.\nNature communications 8, 2064 (2017)."
+            }
+        },
+        {
+            "extraction_id": 25,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6077687917425623,
+                    "ymax": 0.9133
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Nature. Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 26,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.218
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 27,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3094,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.432
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 28,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5227,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 29,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7281,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

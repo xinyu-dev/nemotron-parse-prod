@@ -1,0 +1,81 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_43_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:55:10.689437+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.0586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 43"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6077687917425623,
+                    "ymax": 0.9125
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Picture",
+                "bbox": {
+                    "xmin": 0.15339307832422586,
+                    "ymin": 0.0805,
+                    "xmax": 0.9380692167577414,
+                    "ymax": 0.3523
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {}
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.3719,
+                    "xmax": 0.8306040072859745,
+                    "ymax": 0.5047
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Fig. 5: Reconstructing objects using neuronal responses from the IT object-topic map.** **a**, Reconstructions using 482 cells from NMF, body, stubby, and face networks. Example reconstructed images from the three groups defined in **b** are shown. Each row (group) of four images shows from left to right: 1, the original image; 2, the reconstructed image using the fc6 response pattern to the original image; 3, the reconstructed image using the fc6 response pattern projected onto the 50D object space; and 4, the reconstructed image based on neuronal data. **b**, Distribution of normalized distances between reconstructed feature vectors and best-possible reconstructed feature vectors (see Methods)."
+            }
+        }
+    ]
+}

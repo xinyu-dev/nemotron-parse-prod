@@ -1,0 +1,274 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_14_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:53:43.446966+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.0578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 14"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.4260585306618093,
+                    "ymin": 0.0906,
+                    "xmax": 0.6674049787492411,
+                    "ymax": 0.1383
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(\\left(\\begin{array}{ c } x_1,1x_1,2 \\\\ \\vdots \\\\ x_1224,1x_1224,2\n\\end{array}\\right)=\\left(\\begin{array}{ c } x_1^{^\\prime},1x_1^{^\\prime},2 \\\\ \\vdots \\\\ x_1224,1x_1^{^\\prime} 1224,2\n\\end{array}\\right)\\left(\\begin{array}{ c } u & w \\\\ u^{^\\prime} w^{^\\prime}\\right)\\)"
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.1688,
+                    "xmax": 0.8178962962962963,
+                    "ymax": 0.2562
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "where (_x_<sub>_i,_1</sub>_x_<sub>_i,_2</sub>) is the coordinate of image _i_ in PC1-PC2 space, and \\(\\left(x_i^{^\\prime},1x_i^{^\\prime},2\\right)\\) is the coordinate of image _i_ in PC1\\(^{^\\prime}\\)-PC2\\(^{^\\prime}\\) space. After matching, we calculated the Pearson\u2019s correlation _r_ between PC1 and affined transformed PC1\\(^{^\\prime}\\), and PC2 and affine transformed PC2\\(^{^\\prime}\\). We used a similar procedure to test the robustness of object PC1-PC2 space to the particular network used to compute it (Extended Data Fig. 4i)."
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.2773,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.307
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Quantifying the aspect ratio of objects--**The aspect ratio of an object (Extended Data Fig. 3g) was defined as a function of perimeter _P_ and area _A_:"
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.4954006071645416,
+                    "ymin": 0.325,
+                    "xmax": 0.5960616879174256,
+                    "ymax": 0.3477
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(\\text{Aspect ratio}=\\frac{P^2}{4\\pi A}\\)"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.382,
+                    "xmax": 0.8236998178506376,
+                    "ymax": 0.4445
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_P_ was measured by the number of pixels lying on the object image\u2019s boundary, and was computed using the Matlab _bwboundaries_ function. The area was measured by the number of pixels that belonged to the object, and was computed using the Matlab _regionsprops_ function."
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.468,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.6219
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Computing the preferred axis of an IT cell--**The number of spikes in a time window of 60-220 ms after stimulus onset was counted for each stimulus. To estimate the preferred axis, we used linear regression to compute the coefficients **c** in the equation \\(\\mathbf{R}=\\mathbf{c}\\cdot\\mathbf{F}+\\unknown_0\\), where **R** is the response vector of the cell to the set of images, **F** is the matrix of 50D object feature vectors for the set of images, and \\(\\unknown_0\\) is a constant offset. Using this definition of preferred axis, cells will necessarily show an increasing firing rate for increasing value of projection onto the preferred axis. To generate Fig. 3c, we randomly picked half die stimulus trials to compute the preferred axis for each cell, and then used the held-out data to plot the responses shown."
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.643,
+                    "xmax": 0.8364075288403158,
+                    "ymax": 0.8148
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Computing tuning along dimensions orthogonal to the preferred axis--**To compute timing along orthogonal dimensions (Extended Data Fig. 5e, black traces), for each neuron we first computed the preferred axis. There are 49 dimensions spanning the subspace orthogonal to this preferred axis. To find the longest orthogonal axis in this 49D subspace, we first represented each of the 1,224 images in our stimulus set as a 50D vector in object space, and subtracted the preferred axis of the cell from each of these image feature vectors, to obtain a set of feature vectors lying in the 49D orthogonal subspace. We performed PCA on this set of 1,224 vectors, and picked the top PC. This PC represents the axis orthogonal to the preferred axis of the cell that captures the largest variation in the images. For each cell, the tuning curve of the cell along this axis was computed."
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.2550547662416515,
+                    "ymin": 0.8352,
+                    "xmax": 0.7846761384335155,
+                    "ymax": 0.8648
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Quantifying consistency of a cell\u2019s preferred axis--**The consistency of the preferred axis of each cell (Extended Data Fig. 5a) was measured as follows: in each"
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6067681845780206,
+                    "ymax": 0.9125
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.218
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3094,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.432
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 12,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5227,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 13,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7359,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

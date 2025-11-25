@@ -1,0 +1,236 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_13_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:53:40.812910+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8374081360048573,
+                    "ymax": 0.0578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 13"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16119781420765025,
+                    "ymin": 0.0797,
+                    "xmax": 0.2853731633272617,
+                    "ymax": 0.0891
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## Behavioural task"
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.1023,
+                    "xmax": 0.829603400121433,
+                    "ymax": 0.2023
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Monkeys were head fixed and passively viewed the screen in a dark Wisconsin box. Stimuli for electrophysiology were presented on a CRT monitor (DELL PI 130). The screen size covered 27.7 \u00d7 36.9 visual degrees and stimulus size spanned 5.7\u00b0. The fixation spot size was 0.2\u00b0 in diameter. Images were presented in random order using custom software. Eye position was monitored using an infrared eye tracking system (ISCAN). Juice reward was delivered every 2\u20134 s if fixation was properly maintained."
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Section-header",
+                "bbox": {
+                    "xmin": 0.16119781420765025,
+                    "ymin": 0.2234,
+                    "xmax": 0.2599577413479052,
+                    "ymax": 0.2352
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "## Data analysis"
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.2461,
+                    "xmax": 0.833505768063145,
+                    "ymax": 0.5055
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Computing view-identity similarity matrices--**For each network, we first identified the 11 most-preferred objects by computing average, baseline-subtracted responses in the window [60 220] ms after stimulus onset (the baseline was computed from the window [\u201325 25] ms), averaging across all 24 views. We then used responses to these 11 most-preferred objects at 24 views (264 images in total) for the analysis. A 264 \u00d7 264 similarity matrix of Pearson\u2019s correlation coefficients was computed between the population response vector from each patch to each of the 264 stimuli. Owing to size limitations, only the first 88 \u00d7 88 (first 8 views) are shown in Fig. 3a. To compute view-invariant identity selectivity as a function of time (Extended Data Fig. 3f), at each time point t between 0 and 400 ms following stimulus onset, in increments of 50 ms, a similarity matrix was computed from mean responses between t \u2013 25 and t + 25 ms. We then calculated a \u2018same object correlation value\u2019 as the average of correlation values between the same object across different views (solid traces in Extended Data Fig. 3f), and a \u2018different object correlation value\u2019 as the average of correlation values between different objects across same and different views (dashed traces in Extended Data Fig. 3f)."
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.5266,
+                    "xmax": 0.8276021857923497,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**Building an object space using a deep network--**The stimulus set consisting of 51 objects at 24 different views (1,224 images) was fed into the pre-trained network AlexNet<sup>6</sup>. Then the responses of 4,096 nodes in layer fc6 were extracted to form a 1,224 \u00d7 4,096 matrix. PCA was performed on this matrix, yielding 1,223 PCs, each of length 4,096. To further reduce the dimensionality of the object space, we retained only the first 50 PCs, which captured 85% of the response variance across AlexNet fc6 units. The first two dimensions accounted for 27% of the response variance across AlexNet fc6 units."
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.6641,
+                    "xmax": 0.833505768063145,
+                    "ymax": 0.8344
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "To test the robustness of object PC1\u2013PC2 space to the particular set of 1,224 images used to build it (Extended Data Fig. 4d, e), over multiple iterations we randomly picked 1,224 images from a new database (http://www.freepngs.com) containing 19,300 background-free object images. The 1,224 images were fed into Alexnet, and we followed the same procedure to build a new object space, which we call PC1 \u0301\u2013PC2 \u0301 space. The original 1,224 images were passed through Alexnet, and the vector of fc6 unit activations was projected onto both PC1\u2013PC2 space and PC1 \u0301\u2013PC2 \u0301 space. Thus we have a set of 1,224 coordinates in both PC1\u2013PC2 space and PC1 \u0301\u2013PC2 \u0301 space. We then determined the best affine transform of PC1 \u0301\u2013PC2 \u0301 space so that the coordinates of the 1,224 images in the two spaces would have minimum distance using linear regression."
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6067681845780206,
+                    "ymax": 0.9125
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature._ Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.2258
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3094,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.432
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5227,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7281,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}

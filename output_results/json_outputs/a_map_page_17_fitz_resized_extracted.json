@@ -1,0 +1,255 @@
+{
+    "source_document": "output_results/resized_images/a_map_page_17_fitz_resized.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2025-11-25T04:53:50.833866+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 0.14168597449908926,
+                    "ymin": 0.0492,
+                    "xmax": 0.8384087431693988,
+                    "ymax": 0.0578
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Bao et al. Page 17"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.0797,
+                    "xmax": 0.8345063752276867,
+                    "ymax": 0.2328
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "As an alternative to directly reconstructing images using a GAN, we recovered images using an auxiliary database (Extended Data Fig. 11g, h). We passed an image set containing 18,700 background-free object images (http://www.freepngs.com) and 600 face images (FEI database), none of which had been shown to the monkey, through AlexNet, and projected these images to the object space computed using our original stimulus set of 1,224 images. For each image, the object feature vector reconstructed from neural activity was compared with object feature vectors for images from the new image set. The image in the new image set with the smallest Euclidean distance to the reconstructed object feature vector was considered as the \u2018reconstruction\u2019 of this object feature vector."
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.2516,
+                    "xmax": 0.8325051608986035,
+                    "ymax": 0.3164
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "To take into account the fact that the object images used for reconstruction did not include any of the object images shown to the monkey, setting a limit on how good the reconstruction can be, we computed a \u2018normalized distance\u2019 to quantify the reconstruction accuracy for each object. We defined the normalized reconstruction distance for an image as"
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.402544262295082,
+                    "ymin": 0.3328,
+                    "xmax": 0.6889180327868852,
+                    "ymax": 0.3648
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(\\text{Normalized distance}=\\frac{|v_\\text{recon}-v_\\text{original}|}{|v_\\text{best possible recon}-v_\\text{original}|}\\)"
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.3969,
+                    "xmax": 0.8022868245294474,
+                    "ymax": 0.4617
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "where **v**recon is the feature vector reconstructed from neuronal responses, **v**original is the feature vector of the image presented to the monkey, and **v**best possible recon is the feature vector of the best possible reconstruction. A normalized distance of one means that the reconstruction has found the best solution possible."
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.4828,
+                    "xmax": 0.8276021857923497,
+                    "ymax": 0.5828
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Object specialization index computation\u2014To quantify whether a particular object is better represented by a particular network compared to other networks (Extended Data Fig. 11i), for each of 1,224 objects and each of three networks (body, NML, stubby), we computed a specialization index SIij that measures how much better decoding accuracy for object _i_computed from activity in network _j_is compared to decoding accuracy for object _i_ computed across all other networks using the same number of neurons:"
+            }
+        },
+        {
+            "extraction_id": 6,
+            "metadata": {
+                "source_page": 0,
+                "type": "Formula",
+                "bbox": {
+                    "xmin": 0.48469411050394656,
+                    "ymin": 0.6,
+                    "xmax": 0.6077687917425623,
+                    "ymax": 0.6266
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\(\\mathrm{SI}_{ij}=\\frac{\\mathrm{DA}_{i,j}-\\mathrm{DA}_{i,\\sim j}}{\\mathrm{DA}_{i,j}+\\mathrm{DA}_{i,\\sim j}}\\)"
+            }
+        },
+        {
+            "extraction_id": 7,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 0.25405415907710993,
+                    "ymin": 0.6586,
+                    "xmax": 0.818896903460838,
+                    "ymax": 0.7234
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "where DA<sub>_i,j_</sub>is the decoding accuracy for object _i_computed using _N_random neurons from network _j_, and DA<sub>_i,\u223cj_</sub>is the decoding accuracy for object _i_computed using _N_random neurons from all networks except _j_. SI<sub>_ij_</sub>quantifies how specialized network _j_is for representing object _i_."
+            }
+        },
+        {
+            "extraction_id": 8,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 0.3067861566484517,
+                    "ymin": 0.9031,
+                    "xmax": 0.6067681845780206,
+                    "ymax": 0.9125
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "_Nature_. Author manuscript; available in PMC 2021 May 01."
+            }
+        },
+        {
+            "extraction_id": 9,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.0961,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.2188
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 10,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.3094,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.4313
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 11,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.5227,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.6453
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        },
+        {
+            "extraction_id": 12,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 0.04882962962962963,
+                    "ymin": 0.7359,
+                    "xmax": 0.06744092289010323,
+                    "ymax": 0.8586
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Author Manuscript"
+            }
+        }
+    ]
+}
