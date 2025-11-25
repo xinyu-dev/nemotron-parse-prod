@@ -1,7 +1,7 @@
 {
   "pipeline_step": "step1_pdf_to_images",
-  "timestamp_start_utc": "2025-11-25T04:40:33.610832+00:00",
-  "timestamp_end_utc": "2025-11-25T04:40:53.896620+00:00",
+  "timestamp_start_utc": "2025-11-25T21:20:37.439446+00:00",
+  "timestamp_end_utc": "2025-11-25T21:20:38.006147+00:00",
   "config": {
     "DPI": 300,
     "OUTPUT_FORMAT": "PNG",
@@ -13,15 +13,15 @@
   "summary": {
     "successful_files": 1,
     "failed_files": 0,
-    "total_pages_converted": 43,
+    "total_pages_converted": 1,
     "errors": []
   },
   "files": [
     {
-      "pdf": "/home/ubuntu/nim-dev/models/nemotron-parse-prod/data/test/a_map.pdf",
-      "output_base": "/home/ubuntu/nim-dev/models/nemotron-parse-prod/output_results/converted_images/a_map",
+      "pdf": "/home/ubuntu/nim-dev/models/nemotron-parse-prod/data/tables/soa_1.pdf",
+      "output_base": "/home/ubuntu/nim-dev/models/nemotron-parse-prod/output_results/converted_images/soa_1",
       "pdf2image_pages": 0,
-      "fitz_pages": 43
+      "fitz_pages": 1
     }
   ],
   "output_root": "/home/ubuntu/nim-dev/models/nemotron-parse-prod/output_results/converted_images"
